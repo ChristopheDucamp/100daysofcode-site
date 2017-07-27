@@ -1,7 +1,7 @@
 ---
 title: Échantillon Math
 subtitle: Utiliser KaTeX
-date: 2017-03-05
+date: 2017-07-27
 tags: ["exemple", "math"]
 ---
 

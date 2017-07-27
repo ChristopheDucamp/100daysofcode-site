@@ -1,7 +1,7 @@
 ---
 title: Test markdown
 subtitle: Chaque post a aussi un sous-titre
-date: 2017-07-26
+date: 2017-07-27
 tags: ["exemple", "markdown"]
 ---
 
@@ -15,10 +15,10 @@ Ici un tableau inutile :
  
 | Nombre | Nombre suivant | Nombre précédent |
 | :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
+| Cinq | Six | Quatre |
+| Ten | Eleven | Zwei |
 | Seven | Eight | Six |
-| Two | Three | One |
+| Two | Trois | One |
  
 
 Que penser d'une crêpe ?

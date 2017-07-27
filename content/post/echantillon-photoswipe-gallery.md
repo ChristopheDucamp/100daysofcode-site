@@ -1,7 +1,7 @@
 ---
 title: Échantillon "Photoswipe Gallery"
 subtitle: Produire une Galerie
-date: 2017-03-20
+date: 2017-07-27
 tags: ["exemple", "photoswipe"]
 ---
 
@@ -15,7 +15,7 @@ Le thème Beautiful Hugo ajoute quelques shortcodes personnalisés créés par [
 
 <!--more-->
 ## Exemple
-La galerie au-dessus a été créée en utilisant les shortcodes suivants: 
+La galerie au-dessus a été créée en utilisant les shortcodes suivants : 
 ```
 {{</* gallery caption-effect="fade" */>}}
   {{</* figure thumb="-thumb" link="/img/hexagon.jpg" */>}}
