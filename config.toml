@@ -1,0 +1,95 @@
+baseURL = "/"
+title = "100daysofcode"
+
+
+DefaultContentLanguage = "fr"
+#DefaultContentLanguage = "en"
+
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  subtitle = "1 heure de code chaque jour pendant 100 jours"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+#  gcse = "012345678901234567890:abcdefghijk" # Revevez votre code à partir de google.com/cse. Assurez-vous d'aller sur "Look and Feel" et de modifier le Layout en "Full Width" et le Theme sur "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Christophe Ducamp"
+  email = "christophe@ducamp.me"
+  facebook = "christophe.ducamp"
+  #googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "ChristopheDucamp/100daysofcode"
+  #gitlab = "username"
+  twitter = "xtof_party"
+  #reddit = "username"
+  linkedin = "christopheducamp"
+  #xing = "username"
+  #stackoverflow = "users/XXXXXXX/username"
+  #snapchat = "username"
+  instagram = "xtof_fr"
+  #youtube = "user/username" # or channel/channelname
+  #soundcloud = "username"
+  #spotify = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #paypal = "username"
+  #telegram = "username"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/post/"
+    weight = 1
+
+[[menu.main]]
+    name = "À Propos"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "samples"
+    name = "Échantillons"
+    weight = 2
+
+[[menu.main]]
+    parent = "samples"
+    name = "Échantillon Grande Image"
+    url = "post/echantillon-bigimg"
+    weight = 1
+
+[[menu.main]]
+    parent = "samples"
+    name = "Échantillon Math"
+    url = "post/echantilon-math"
+    weight = 2
+
+[[menu.main]]
+    parent = "samples"
+    name = "Échantillon Code"
+    url = "post/echantillon-code"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
+
