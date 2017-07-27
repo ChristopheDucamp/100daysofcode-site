@@ -1,5 +1,5 @@
 ---
-title: "D4: travaux sur formats de date dans Hugo"
+title: "R1D4: formats de date dans GoHugo"
 date: 2017-07-27
 tags: [100daysofcode, log]
 ---
