@@ -14,9 +14,12 @@ Améliorer ce site pour restituer des formats de date avec un  rendu d'affichage
 - `mardi 1<sup>er</sup> août`
 - `Donnerstag, 27 Juli` pour les amis autrichiens de [vienna.html](https://github.com/viennahtml) quand la mise en page des dates fonctionnera 
 
-### Statut : travaux en cours 
+### Statut : chantier en cours 
 
-**Objectif** : Étudier les ressources au calme pour écrire un partiel `post_meta.html` de personnalisation de la date.
+**Intentions** : 
+
+1. Étudier les ressources au calme pour écrire un partiel `post_meta.html` de personnalisation de la date.
+2. En bas de chaque article, ajouter un bouton "améliorer la page" et un horodatage sur la date de dernière modification 
 
 ## Production du jour 
 
@@ -45,9 +48,22 @@ Améliorer ce site pour restituer des formats de date avec un  rendu d'affichage
 12: "décembre"
 ```
 
-#### un partiel pour imaginer un bouton de modification 
+#### Partiel de date
 
-ala wiki, l'idée serait d'ajouter un bouton en bas de chaque post libellé "modifier la page" pointant sur le fichier github lié 
+- `post_meta.html` ajouté dans le dossier `/layouts/partials`
+
+
+```golang
+<span class="post-meta">
+Posté le <time class="post-date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+</span>
+```
+
+**todo** : à raffiner avec l'ajout du jour de la semaine.
+
+#### bouton de modification horodaté avec accès github
+
+Inspiré de la doc Hugo, j'aimerais ajouter un bouton en bas de chaque post libellé "modifier la page" pointant sur le fichier github lié.
 
 ```golang
 <!-- partiel de date publication et mise a jour au format fr a raffiner. ex : <nomdujour> 1er -->
@@ -58,16 +74,6 @@ dernière mise à jour le :
         {{ partial "page-edit.html" . }}
         
 ```
-
-#### un partiel date de publication 
-
-- à placer dans les posts et la page de liste des posts (dossier `layouts/default)
-
-
-```golang
-<time class="post-date dt-published" datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .PublishDate.Day }} {{ index $.Site.Data.mois (printf "%d" .PublishDate.Month) }} {{ .PublishDate.Year }}</time>
-```
-
 
 ### Ressources à étudier
 
