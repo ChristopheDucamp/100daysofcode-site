@@ -1,2 +1,4 @@
 # 100daysofcode-site
-Un blog hugo (theme beautiful hugo) pour compléter le projet #100daysofcode
+
+Un log personnel pour compléter le projet #100daysofcode.
+Motorisation [GoHugo](https://gohugo.io)
