@@ -1,5 +1,5 @@
 ---
-title: "R1D5 : https, fuckinggodateformat et un bouton edit
+title: "R1D5 : fuckinggodateformat, https, lien `Améliorez la Page`"
 date: 2017-07-28T11:40:36+02:00
 lastmod: 2017-07-28T19:40
 draft: false
