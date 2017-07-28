@@ -1,6 +1,7 @@
 ---
 title: "R1D4 : mise en forme des dates dans GoHugo"
 date: 2017-07-27
+lastmod: 2017-07-28
 tags: [100daysofcode, log, date, localisation]
 bigimg: [{src: "/img/path.jpg", desc: "Path"}]
 ---
@@ -78,8 +79,9 @@ dernière mise à jour le :
         
 ```
 
-### Ressources à étudier
+### Ressources à étudier et classer
 
+- [FuckingGoDateFormat](http://fuckinggodateformat.com/)
 - [GoHugo : dateFormat](https://gohugo.io/functions/dateformat/) (non supportée sur les sites multilingues)
 - Exemples de dates publiés sur [docsHugo : format](https://gohugo.io/functions/format/)
 - [GoHugo : multilingual mode / customize dates](https://gohugo.io/content-management/multilingual/#customize-dates)

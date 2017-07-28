@@ -20,6 +20,8 @@ disqusShortname = "xtof"
 [Params]
   subtitle = "1 heure de code chaque jour pendant 100 jours"
   logo = "img/avatar-icon.png"
+  ## repo Gh pour le pied de page (inclure un slash à la fin)
+  ghrepo = "https://github.com/ChristopheDucamp/100daysofcode-site/"
   favicon = "img/favicon.ico"
   dateFormat = "Monday 2 January 2006"
   commit = false
@@ -28,14 +30,10 @@ disqusShortname = "xtof"
 #  gcse = "012345678901234567890:abcdefghijk" # Revevez votre code à partir de google.com/cse. Assurez-vous d'aller sur "Look and Feel" et de modifier le Layout en "Full Width" et le Theme sur "Classic"
 
 #PARAMS pied de page en cours
-[params]
-  ## repo Gh pour le pied de page (inclure un slash à la fin)
-  ghrepo = "https://github.com/ChristopheDucamp/100daysofcode-site/"
+
+  
   ### Editez le repo de contenu (regle pour entrer automatiquement le mode "edit" ;  bien pour des liens "ameliorer cette page")
   ghdocsrepo = "https://github.com/ChristopheDucamp/100daysofcode-site/tree/master"
-
-
-
 
 
 #[[Params.bigimg]]
