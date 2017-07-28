@@ -11,11 +11,15 @@ tags: [100daysofcode, hcard, https, indieweb]
 
 - ajouté certificat https 
 - bataillé pour poser des [dates en français](R1D4-100daysofcode) (chantier en cours)
-- pied de page : 
-	- ajout variable `site` pour `author`, 
-	- h-card et rel="me" sur les icônes sociales
+
 
 ## todo 
+
+### [indiewebification](https://indiewebify.me/validate-rel-me/?url=https%3A%2F%2F100daysofcode.christopheducamp.com)
+
+- pied de page : 
+	- personnaliser variable `site` pour `author` avec linkback
+	- [h-card](http://microformats.org/wiki/h-card) et rel="me" sur les icônes sociales
 
 ### Archétypes 
 
