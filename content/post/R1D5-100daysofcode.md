@@ -17,7 +17,8 @@ tags: [100daysofcode, hcard, https, indieweb]
 
 ### [indiewebification](https://indiewebify.me/validate-rel-me/?url=https%3A%2F%2F100daysofcode.christopheducamp.com)
 
-- pied de page : 
+Ajouter les [briques de construction indieweb](https://adactio.com/journal/7698) essentielles : 
+- pied de page à travailler 
 	- personnaliser variable `site` pour `author` avec linkback
 	- [h-card](http://microformats.org/wiki/h-card) et rel="me" sur les icônes sociales
 
