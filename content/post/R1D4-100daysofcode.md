@@ -1,7 +1,7 @@
 ---
-title: "R1D4 : mise en page de date dans GoHugo"
+title: "R1D4 : mise en forme des dates dans GoHugo"
 date: 2017-07-27
-tags: [100daysofcode, log, date]
+tags: [100daysofcode, log, date, localisation]
 bigimg: [{src: "/img/path.jpg", desc: "Path"}]
 ---
 
