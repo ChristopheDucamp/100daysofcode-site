@@ -5,8 +5,8 @@
         <ul class="list-inline text-center footer-links">
           {{ range .Site.Data.beautifulhugo.social.social_icons }}
             {{- if isset $.Site.Author .id }}
-              <li>
-                <a href="{{ printf .url (index $.Site.Author .id) }}" title="{{ .title }}">
+              <li class="h-card">
+                <a rel="me" href="{{ printf .url (index $.Site.Author .id) }}" title="{{ .title }}">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
@@ -26,8 +26,8 @@
           </li>
           {{ end }}
         </ul>
-        <p class="credits copyright text-muted">
-          {{ .Site.Author.name }}
+        <p class="credits copyright text-muted h-card">
+          <a rel="me" href="{{ .Site.Author.site }}">{{ .Site.Author.name }}</a>
           &nbsp;&bull;&nbsp;
           {{ .Site.LastChange.Format "2006" }}
 
