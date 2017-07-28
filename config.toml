@@ -9,14 +9,14 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
-#disqusShortname = "XXX"
+disqusShortname = "xtof"
 #googleAnalytics = "XXX"
 
 [Params]
   subtitle = "1 heure de code chaque jour pendant 100 jours"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
+  dateFormat = "Monday 2 January 2006"
   commit = false
   rss = true
   comments = true
@@ -36,7 +36,7 @@ pygmentCodeFences = true
   name = "Christophe Ducamp"
   email = "christophe@ducamp.me"
   facebook = "christophe.ducamp"
-  #googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  googleplus = "+ChristopheDucamp"
   github = "ChristopheDucamp/100daysofcode"
   #gitlab = "username"
   twitter = "xtof_party"
@@ -44,11 +44,11 @@ pygmentCodeFences = true
   linkedin = "christopheducamp"
   #xing = "username"
   #stackoverflow = "users/XXXXXXX/username"
-  #snapchat = "username"
+  snapchat = "xtof_fr"
   instagram = "xtof_fr"
   #youtube = "user/username" # or channel/channelname
   #soundcloud = "username"
-  #spotify = "username"
+  spotify = "xtof_fr"
   #bandcamp = "username"
   #itchio = "username"
   #vk = "username"
@@ -79,7 +79,7 @@ pygmentCodeFences = true
 [[menu.main]]
     parent = "samples"
     name = "Échantillon Math"
-    url = "post/echantilon-math"
+    url = "post/echantillon-math"
     weight = 2
 
 [[menu.main]]

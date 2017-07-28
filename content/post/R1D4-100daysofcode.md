@@ -1,7 +1,8 @@
 ---
-title: "R1D4: formats de date dans GoHugo"
+title: "R1D4 : mise en page de date dans GoHugo"
 date: 2017-07-27
-tags: [100daysofcode, log]
+tags: [100daysofcode, log, date]
+bigimg: [{src: "/img/path.jpg", desc: "Path"}]
 ---
 
 Premier post sur ce nouveau site dédié à compléter mon [log 100daysofcode](https://github.com/ChristopheDucamp/100-days-of-code-xtof). Bien installé dans les massifs à proximité de [Sank Pölten](https://fr.wikipedia.org/wiki/Sankt_Pölten). Temps pluvieux, les photos suivront demain... <!--more--> Excité de poser un [log 100daysofcode](https://github.com/ChristopheDucamp/100-days-of-code) sur une nouvelle motorisation GoHugo. ([thème multilingue "beautiful hugo"](https://github.com/halogenica/beautifulhugo).)
@@ -15,7 +16,7 @@ Améliorer ce site pour restituer des formats de date avec un  rendu d'affichage
 
 ### Statut : travaux en cours 
 
-**Objectif** : Personnaliser les dates dans les layouts avant l'ajout d'autres partiels dédié à quelques [briques de construction indieweb](https://indieweb.org/Category:building-blocks)
+**Objectif** : Étudier les ressources au calme pour écrire un partiel `post_meta.html` de personnalisation de la date.
 
 ## Production du jour 
 
@@ -70,8 +71,11 @@ dernière mise à jour le :
 
 ### Ressources à étudier
 
+- [GoHugo : dateFormat](https://gohugo.io/functions/dateformat/) (non supportée sur les sites multilingues)
+- Exemples de dates publiés sur [docsHugo : format](https://gohugo.io/functions/format/)
 - [GoHugo : multilingual mode / customize dates](https://gohugo.io/content-management/multilingual/#customize-dates)
 - [Formatting a date with suffix (2nd)](https://discourse.gohugo.io/t/formatting-a-date-with-suffix-2nd/5701) - forum de discussion Hugo
+- [dates only in english](https://discourse.gohugo.io/t/dates-only-in-english/1317/38) - forum discussion Hugo
 - [Francisation de la date](https://github.com/nicolinuxfr/voiretmanger-hugo/commit/5ecc162a0e89d803997fff5e9ef0a2507c0ff6d0) - (repo voiretmanger- hugo)
 - [Parsing dates in templates](https://discourse.gohugo.io/t/parsing-dates-in-templates/603/12)
 - [Slack jamstatic](https://jamstatic-fr.slack.com/archives/C5MTQPL4E/p1500985424553770)
