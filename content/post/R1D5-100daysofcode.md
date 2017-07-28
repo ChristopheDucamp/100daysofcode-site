@@ -1,25 +1,27 @@
 ---
-title: "R1D5 : https"
+title: "R1D5 : https, fuckinggodateformat et un bouton edit
 date: 2017-07-28T11:40:36+02:00
+lastmod: 2017-07-28T19:40
 draft: false
 bigimg: [{src: "/img/path.jpg", desc: "Sur la Route"}]
 tags: [100daysofcode, hcard, https, indieweb]
 ---
 
-## Production du jour
 <!--more-->
 
 
+
 - déploiement netlify : ajout certificat https 
-- reprise de la bataille durant l'étude de la mise en forme des [dates en français](R1D4-100daysofcode) (chantier en cours pour comprendre et localiser le [FuckingGoDateFormat](http://fuckinggodateformat.com/). Les dates s'affichent bien en français mais il reste du raffinage à finir
-- compléter l'[archétype](https://gohugo.io/content-management/archetypes/#readout) `default.md` avec les types de contenu tags, bigimg.
-- Réglage du fichier de configuration pour ajouter la date sur ce schéma URL non définitif (attention : URLs encore instables)
+- poursuite du chantier pour mettre toutes les [dates en français](R1D4-100daysofcode)
+	- ajouté une date de modification en pied de page
+- ajout d'un lien "améliorez cette page" vers repo github.
+- complété l'[archétype](https://gohugo.io/content-management/archetypes/#readout) `default.md` avec les types de contenu `lastmod`, `tags`, `bigimg`.
+- Réglé le fichier de configuration pour ajouter la date dans le schéma URL suivant (faute d'équivalent du `%j` jour de l'année qui n'existe pas nativement en Go.)
+
 ```toml
 [permalinks]
   post = "/:year/:month/:day/:title/"
 ```
-
-
 
 <!--
 ## todo 

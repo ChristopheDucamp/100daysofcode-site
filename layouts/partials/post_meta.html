@@ -1,5 +1,6 @@
 <span class="post-meta">
-Posté le <time class="post-date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+Posté le <time class="post-date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time> 
+<!-- par <a rel="author" class="p-author" href="{{ .Author.site }}">{{ .Author.name }}</a> -->
 </span>
 
 
