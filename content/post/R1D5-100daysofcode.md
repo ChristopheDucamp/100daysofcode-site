@@ -1,10 +1,10 @@
 ---
-title: "R1D5 : fuckinggodateformat, https, lien `Améliorez la Page`"
+title: "R1D5 : FuckingGoDateFormat, https et un lien `Améliorez la Page`"
 date: 2017-07-28T11:40:36+02:00
 lastmod: 2017-07-28T19:40
 draft: false
 bigimg: [{src: "/img/path.jpg", desc: "Sur la Route"}]
-tags: [100daysofcode, hcard, https, indieweb]
+tags: [100daysofcode, https, dates]
 ---
 
 <!--more-->
@@ -12,7 +12,7 @@ tags: [100daysofcode, hcard, https, indieweb]
 
 
 - déploiement netlify : ajout certificat https 
-- poursuite du chantier pour mettre toutes les [dates en français](R1D4-100daysofcode)
+- poursuite du chantier pour mettre toutes les [dates en français](R1D4-100daysofcode). [FuckingGoDateFormat](http://fuckinggodateformat.com/)
 	- ajouté une date de modification en pied de page
 - ajout d'un lien "améliorez cette page" vers repo github.
 - complété l'[archétype](https://gohugo.io/content-management/archetypes/#readout) `default.md` avec les types de contenu `lastmod`, `tags`, `bigimg`.
