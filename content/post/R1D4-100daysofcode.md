@@ -5,7 +5,7 @@ tags: [100daysofcode, log, date, localisation]
 bigimg: [{src: "/img/path.jpg", desc: "Path"}]
 ---
 
-Premier post sur ce nouveau site dédié à compléter mon [log 100daysofcode](https://github.com/ChristopheDucamp/100-days-of-code-xtof). Bien installé dans les massifs à proximité de [Sank Pölten](https://fr.wikipedia.org/wiki/Sankt_Pölten). Temps pluvieux, les photos suivront demain... <!--more--> Excité de poser un [log 100daysofcode](https://github.com/ChristopheDucamp/100-days-of-code) sur une nouvelle motorisation GoHugo. ([thème multilingue "beautiful hugo"](https://github.com/halogenica/beautifulhugo).)
+Premier post sur ce nouveau site dédié à compléter mon [log 100daysofcode](https://github.com/ChristopheDucamp/100-days-of-code-xtof). Bien installé dans les massifs à proximité de [Sank Pölten](https://fr.wikipedia.org/wiki/Sankt_Pölten). Temps pluvieux, les photos suivront demain... <!--more--> En ce "R1D4" (4ème jour d'engagement du premier round de 100daysofcode, je suis excité à l'idée de compléter mon [log 100daysofcode](https://github.com/ChristopheDucamp/100-days-of-code) en mettant les mains dans le générateur de site statique [GoHugo](https://gohugo.io/). ([thème multilingue "beautiful hugo"](https://github.com/halogenica/beautifulhugo).)
 
 ## Intention 
 
@@ -26,6 +26,9 @@ Améliorer ce site pour restituer des formats de date avec un  rendu d'affichage
 - Un repo github [`100daysofcode-site`](https://github.com/ChristopheDucamp/100-days-of-code-site) 
 
 ## Code et Ressources pour personnaliser la Date
+
+Les fichiers du thème en cours de modification : 
+![Création d'un fichier Layouts à la racine](https://monosnap.com/file/x6Om2981dbukYvMEffVFLYPePmAPeU.png)
 
 ### Code 
 

@@ -62,7 +62,7 @@ disqusShortname = "xtof"
 
 [[menu.main]]
     name = "À Propos"
-    url = "page/about/"
+    url = "page/a-propos/"
     weight = 3
 
 [[menu.main]]

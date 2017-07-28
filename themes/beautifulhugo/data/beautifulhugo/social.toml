@@ -1,7 +1,7 @@
 [[social_icons]]
 id = "email"
 url = "mailto:%s"
-title = "Email me"
+title = "Envoyez-moi un courriel"
 icon = "fa-envelope"
 
 [[social_icons]]
@@ -9,12 +9,6 @@ id = "facebook"
 url = "https://www.facebook.com/%s"
 title = "Facebook"
 icon = "fa-facebook"
-
-[[social_icons]]
-id = "googleplus"
-url = "https://plus.google.com/%s"
-title = "Google+"
-icon = "fa-google-plus"
 
 [[social_icons]]
 id = "github"
@@ -45,6 +39,12 @@ id = "linkedin"
 url = "https://linkedin.com/in/%s"
 title = "LinkedIn"
 icon = "fa-linkedin"
+
+[[social_icons]]
+id = "googleplus"
+url = "https://plus.google.com/%s"
+title = "Google+"
+icon = "fa-google-plus"
 
 [[social_icons]]
 id = "xing"

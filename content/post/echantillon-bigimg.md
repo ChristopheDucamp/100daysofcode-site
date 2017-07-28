@@ -1,7 +1,7 @@
 ---
 title: Échantillon Grande Image
 subtitle: Utiliser Plusieurs Images
-date: 2017-03-07
+date: 2017-07-27
 tags: ["exemple", "bigimg"]
 bigimg: [{src: "/img/triangle.jpg", desc: "Triangle"}, {src: "/img/sphere.jpg", desc: "Sphère"}, {src: "/img/hexagon.jpg", desc: "Hexagon"}]
 ---
