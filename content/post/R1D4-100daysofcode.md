@@ -4,32 +4,30 @@ date: 2017-07-27
 tags: [100daysofcode, log]
 ---
 
+Premier post sur ce nouveau site dédié à compléter mon [log 100daysofcode](https://github.com/ChristopheDucamp/100-days-of-code-xtof). Bien installé dans les massifs à proximité de [Sank Pölten](https://fr.wikipedia.org/wiki/Sankt_Pölten). Temps pluvieux, les photos suivront demain... <!--more--> Excité de poser un [log 100daysofcode](https://github.com/ChristopheDucamp/100-days-of-code) sur une nouvelle motorisation GoHugo. ([thème multilingue "beautiful hugo"](https://github.com/halogenica/beautifulhugo).)
 
-Premier post sur ce nouveau site qui sera dédié à compléter mon [log 100daysofcode](https://github.com/ChristopheDucamp/100-days-of-code-xtof). Bien installé dans les massifs à proximité de [Sank Pölten](https://fr.wikipedia.org/wiki/Sankt_Pölten). Temps pluvieux, les photos suivront demain... <!--more--> Excité de de migrer [ce projet 100daysofcode](https://github.com/ChristopheDucamp/100-days-of-code) sur une nouvelle motorisation GoHugo. ([thème multilingue "beautiful hugo"](https://github.com/halogenica/beautifulhugo).)
+## Intention 
 
-## Travaux en cours 
+Améliorer ce site pour restituer des formats de date avec un  rendu d'affichage en français, "plus humain" et correct sémantiquement (ajouter la balise `time`).
 
-Améliorer ce site pour restituer des formats de date avec un  rendu d'affichage "plus humain" et plus correct sémantiquement (ajouter la balise `time`).
-
-- `Donnerstag, 27 Juli` pour les amis autrichiens de [vienna.html](https://github.com/viennahtml)
 - `mardi 1<sup>er</sup> août`
-- ...
+- `Donnerstag, 27 Juli` pour les amis autrichiens de [vienna.html](https://github.com/viennahtml) quand la mise en page des dates fonctionnera 
 
-## Statut : travaux en cours 
+### Statut : travaux en cours 
 
-**Objectif** : finaliser pour ce chantier date pour la fin du mois avant l'ajout d'autres partiels dédié à quelques [briques de construction indieweb](https://indieweb.org/Category:building-blocks).
+**Objectif** : Personnaliser les dates dans les layouts avant l'ajout d'autres partiels dédié à quelques [briques de construction indieweb](https://indieweb.org/Category:building-blocks)
 
 ## Production du jour 
 
-un repo github [`100daysofcode-site`](https://github.com/ChristopheDucamp/100-days-of-code-site) 
+- Un repo github [`100daysofcode-site`](https://github.com/ChristopheDucamp/100-days-of-code-site) 
 
-## Code et Ressources
+## Code et Ressources pour personnaliser la Date
 
 ### Code 
 
 #### un fichier data `mois.yaml` 
 
-(à placer dans `data/mois.yaml`)
+(placé dans `data/mois.yaml`)
 
 ```yaml
 1: "janvier"
@@ -70,10 +68,12 @@ dernière mise à jour le :
 ```
 
 
-### Ressources 
+### Ressources à étudier
 
+- [GoHugo : multilingual mode / customize dates](https://gohugo.io/content-management/multilingual/#customize-dates)
 - [Formatting a date with suffix (2nd)](https://discourse.gohugo.io/t/formatting-a-date-with-suffix-2nd/5701) - forum de discussion Hugo
 - [Francisation de la date](https://github.com/nicolinuxfr/voiretmanger-hugo/commit/5ecc162a0e89d803997fff5e9ef0a2507c0ff6d0) - (repo voiretmanger- hugo)
+- [Parsing dates in templates](https://discourse.gohugo.io/t/parsing-dates-in-templates/603/12)
 - [Slack jamstatic](https://jamstatic-fr.slack.com/archives/C5MTQPL4E/p1500985424553770)
 > tu peux découper ton {{.Date}} en {{.Day}} {{.Month}} et {{.Year}}
 > ici un exemple de code où je récupère un timestamp PHP et je le convertis en date humaine :

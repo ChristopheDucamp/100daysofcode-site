@@ -1,13 +1,6 @@
-# Content
+# Contenu (date non francisee)
 - id: dateFormat
-  translation: "01-02-2006"
-#  translation: "<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }} (dernière modification le {{ .Lastmod.Day }} {{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Lastmod.Year }})"</time>
-
-  
-
-
-  
-  
+  translation: "January 2, 2006"
 - id: postedOnDate
   translation: "Posté le {{ .Count }}"
 - id: translationsLabel
@@ -15,16 +8,17 @@
 - id: translationsSeparator
   translation: ", "
 - id: readMore
-  translation: "En savoir plus"
+  translation: "en savoir plus"
 - id: olderPosts
-  translation: "Posts Plus Anciens"
+  translation: "Posts plus anciens"
 - id: newerPosts
-  translation: "Posts Plus Récents"
+  translation: "Post plus récents"
 - id: previousPost
   translation: "Post Précédent"
 - id: nextPost
   translation: "Post Suivant"
-
+  
+  
 # 404 page
 - id: pageNotFound
   translation: "Oops. cette page n'existe pas. Continuez votre chemin. (erreur 404)"
