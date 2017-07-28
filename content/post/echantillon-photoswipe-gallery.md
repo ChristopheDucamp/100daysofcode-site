@@ -25,7 +25,7 @@ La galerie au-dessus a été créée en utilisant les shortcodes suivants :
 ```
 
 ## Usage
-Pour les détails complets d'installation, regardez la page [GitHub hugo-easy-gallery GitHub](https://github.com/liwenyip/hugo-easy-gallery/). Les usages basiques au-dessus sont : 
+Pour les détails complets d'installation, regardez la page [GitHub hugo-easy-gallery](https://github.com/liwenyip/hugo-easy-gallery/). Les usages basiques au-dessus sont : 
 
 - Créez une galerie avec des balises d'ouverture et de fermeture `{{</* gallery */>}}` and `{{</* /gallery */>}}`
 - `{{</* figure src="image.jpg" */>}}` utilisera  `image.jpg` pour la vignette et la lightbox
