@@ -95,28 +95,28 @@ disqusShortname = "xtof"
     url = "page/a-propos/"
     weight = 3
 
-[[menu.main]]
-    identifier = "samples"
-    name = "Échantillons"
-    weight = 2
+#[[menu.main]]
+#    identifier = "samples"
+#    name = "Échantillons"
+#    weight = 2
 
-[[menu.main]]
-    parent = "samples"
-    name = "Échantillon Grande Image"
-    url = "2017/07/27/échantillon-grande-image/"
-    weight = 1
+#[[menu.main]]
+ #   parent = "samples"
+  #  name = "Échantillon Grande Image"
+   # url = "2017/07/27/échantillon-grande-image/"
+    # weight = 1
 
-[[menu.main]]
-    parent = "samples"
-    name = "Échantillon Math"
-    url = "2017/07/27/échantillon-math"
-    weight = 2
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Échantillon Math"
+#    url = "2017/07/27/échantillon-math"
+#    weight = 2
 
-[[menu.main]]
-    parent = "samples"
-    name = "Échantillon Code"
-    url = "2017/07/27/échantillon-de-code/"
-    weight = 3
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Échantillon Code"
+#    url = "2017/07/27/échantillon-de-code/"
+#    weight = 3
 
 [[menu.main]]
     name = "Tags"
