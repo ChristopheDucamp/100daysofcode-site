@@ -2,10 +2,11 @@
 title: "R1D6 : Premiers pas pour indiewebifier Hugo"
 date: 2017-07-29
 tags: [indieweb]
-bigimg: [{src: "/img/bureau-autriche-campagne.jpg", desc: "2ème bureau"}]
+bigimg: [{src: "/img/pente-ecole-autriche.jpg", desc: "2ème bureau"}]
 ---
 
-6ème jour. La maison est désormais réveillée. Difficile d'avancer. Récap sur les travaux matinaux. 2 heures pour raffiner un bouton "edit", aménager un dossier photos et amorcer les étapes d'indiewebification...<!--more-->
+Installé un 2ème bureau pour travailler au calme au pied d'une "future pente-école" pour le parapente. 
+La maison est désormais réveillée, les travaux matinaux s'arrêteront là. 2 heures pour raffiner un bouton "edit", aménager un dossier photos et amorcer les étapes d'indiewebification.<!--more-->
 
 ## Création et Mise en Forme du Bouton "Améliorer cette page"
 
@@ -28,8 +29,8 @@ Améliorez cette page</a>
 - Galerie dans les posts : test du shortcode `gallery` (modèle [Photoswipe](/post/echantillon-photoswipe-gallery))
 
 {{< gallery caption-effect="fade" >}}
-  {{< figure link="/img/bureau-autriche-campagne.jpg" caption="2ème bureau" alt="Mon bureau dans le jardin" >}}
-  {{< figure thumb="-thumb" link="/img/hexagon.jpg" >}}
+  {{< figure thumb="-thumb" link="/img/pente-ecole-autriche.jpg" caption="vue de mon bureau">}}
+  {{< figure link="/img/bureau-autriche-campagne.jpg" caption="2ème bureau" alt="Mon 2ème bureau dans le jardin" >}}
   {{< figure thumb="-thumb" link="/img/sphere.jpg" caption="Sphere" >}}
 
   
