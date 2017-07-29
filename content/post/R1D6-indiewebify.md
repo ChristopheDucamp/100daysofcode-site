@@ -6,7 +6,7 @@ bigimg: [{src: "/img/pente-ecole-autriche.jpg", desc: "2ème bureau"}]
 ---
 
 Installé un 2ème bureau pour travailler au calme au pied d'une "future pente-école" pour le parapente. 
-La maison est désormais réveillée, les travaux matinaux s'arrêteront là. 2 heures pour raffiner un bouton "edit", aménager un dossier photos et amorcer les étapes d'indiewebification.<!--more-->
+La maison est désormais réveillée, les travaux matinaux s'arrêteront là. 2 heures pour créer un bouton "Améliorez cette page", aménager un un dossier pour déposer mes futures photos d'excursions. Et amorcer les étapes d'indiewebification.<!--more-->
 
 ## Création et Mise en Forme du Bouton "Améliorer cette page"
 
