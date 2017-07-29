@@ -1,10 +1,11 @@
 ---
-title: "R1D6 : "
+title: "R1D6 : Premiers pas pour indiewebifier Hugo"
 date: 2017-07-29
-date: 2017-07-29 
 tags: [indieweb]
 bigimg: [{src: "/img/bureau-autriche-campagne.jpg", desc: "2ème bureau"}]
 ---
+
+6ème jour. La maison est désormais réveillée. Difficile d'avancer. Récap sur les travaux matinaux. 2 heures pour raffiner un bouton "edit", aménager un dossier photos et amorcer les étapes d'indiewebification...<!--more-->
 
 ## Création et Mise en Forme du Bouton "Améliorer cette page"
 
@@ -21,23 +22,73 @@ href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}">
 Améliorez cette page</a>
 </div>
 ```
+## Iconographie 
 
-## indiewebification 
-### article (variable à trouver)
+- Ajouté un répertoire local `static/img` afin d'ajouter des images personnelles et reprendre un vieux défi de poster une photo par jour qui pourrait se placer dans la bannière.
+- Galerie dans les posts : test du shortcode `gallery` (modèle [Photoswipe](/post/echantillon-photoswipe-gallery))
 
-- ajouter un auteur (variable dans les métadonnées)
-<a rel="author" class="p-author h-card" href="…">Your Name</a>
-- ajouter url <a class="u-url" href="…">…</a>
+{{< gallery caption-effect="fade" >}}
+  {{< figure link="/img/bureau-autriche-campagne.jpg" caption="2ème bureau" alt="Mon bureau dans le jardin" >}}
+  {{< figure thumb="-thumb" link="/img/hexagon.jpg" >}}
+  {{< figure thumb="-thumb" link="/img/sphere.jpg" caption="Sphere" >}}
 
+  
+{{< /gallery >}}
+## IndieMark Niveau 1
 
+Le web indépenant classique + IndieAuth
+
+> IndieMark Level 1 has the general theme of owning your own domain, for sign-in, and publishing posts
+
+- Référence <https://indieweb.org/IndieMark#Level_1>
+- Validateur : <https://indiewebify.me/>
+
+### connexion web (web sign-in)
+
+- modifié (provisoirement pour 100 jours...) mon profil twitter avec l'url de ce site afin de faire fonctionner un "linkback".
+
+![indiewebify linkback](https://monosnap.com/file/OO15UsKvvLM1bapRijTPClLENBwdXt.png)
+
+### validation h-card 
+
+Trop de h-cards selon le validateur indiewebify :  
+
+![indiewebify.me](https://monosnap.com/file/caUAs9rggeCEReojYWzG9WLh8j4EnH.png)
+
+- Modifié le fichier de configuration pour rajouter des variables de site `Author`.
+- Installé dans un partiel `hcard.html` une h-card représentative inspirée du [modèle de Kevin Marks](https://github.com/ChristopherA/LifeWithAlacrityBlog/blob/master/blog/themes/indie-tufte/layouts/partials/hcard.html)
+
+```
+<div class="h-card">
+<img class="u-photo" src="{{ .Site.Author.authorphoto }}" />
+<h1><a href="{{ .Site.Author.authorurl }}" >{{ .Site.Author.name }}</a><h1>
+</div>
+```
+
+#### email 
+```html
+<a rel="me" class="u-email" mailto:"{{ .Site.Author.authorurl }}">{{ .Site.Author.email }}</a>
+```
+
+#### ajouter une note / minibio
+```html
+<p class="p-note">{{ .Site.Author.summary }}</p>
+```
+### article (variables à raffiner)
+
+- ajouter un auteur 
+
+```
+<a rel="author" class="p-author h-card" href="{{ .Site.Author.authorurl }}">{{ .Site.Author.name }}</a>
+```
+
+- ajouter url ```<a class="u-url" href="…">…</a>```
+
+<!--
 
 ## todo 
 
-
-
-### [indiewebification](https://indiewebify.me/validate-rel-me/?url=https%3A%2F%2F100daysofcode.christopheducamp.com)
-
-#### briques basiques
+### briques basiques (Niveau 1 et 2)
 
 Ajouter les [briques de construction indieweb](https://adactio.com/journal/7698) essentielles
 
@@ -57,22 +108,13 @@ Ajouter les [briques de construction indieweb](https://adactio.com/journal/7698)
 </article>
 ```
 
+### avancé 
 #### webmentions
 
-ressources à trouver
+ressources à compléter : 
 
-- <https://github.com/ChristopherA/LifeWithAlacrityBlog/tree/master/blog/themes/indie-tufte>
-- <http://www.petersell.com/2017/indiewebify-my-static-hugo-website>
+- [So long Disqus, hello Webmention](https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html) Nicolas Hoizey - 2017-07-27 (plugin Jekyll)
+-  [indie-tufte](https://github.com/ChristopherA/LifeWithAlacrityBlog/tree/master/blog/themes/indie-tufte) - thème hugo de Kevin Marks
+- [indiewebify my static hugo web site](http://www.petersell.com/2017/indiewebify-my-static-hugo-website)
 
-
-### Iconographie 
-
-- Ajouté un répertoire local `static/img` pour ajouter des images personnelles
-- Shortcode `gallery` à tester (modèle [Photoswipe](/post/echantillon-photoswipe-gallery))
-
-{{< gallery caption-effect="fade" >}}
-  {{< figure thumb="-thumb" link="/img/hexagon.jpg" >}}
-  {{< figure thumb="-thumb" link="/img/sphere.jpg" caption="Sphere" >}}
-  {{< figure thumb="-thumb" link="/img/triangle.jpg" caption="Triangle" alt="Ceci est long commentaire concernant un triangle" >}}
-{{< /gallery >}}
 

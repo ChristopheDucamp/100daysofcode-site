@@ -46,8 +46,15 @@ disqusShortname = "xtof"
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
 
+
+
+
+
 [Author]
   name = "Christophe Ducamp"
+  summary ="coder 1 heure par jour pendant 100 jours. Défi personnel démarré le 24 juillet 2017."
+  authorphoto ="/img/avatar-icon.jpg"
+  authorurl ="page/a-propos/"
   site = "https://christopheducamp.com/"
   email = "christophe@ducamp.me"
   facebook = "christophe.ducamp"
