@@ -37,7 +37,7 @@ Améliorez cette page</a>
 {{< /gallery >}}
 ## IndieMark Niveau 1
 
-Le web indépenant classique + IndieAuth
+Le web indépendant classique + IndieAuth
 
 > IndieMark Level 1 has the general theme of owning your own domain, for sign-in, and publishing posts
 
