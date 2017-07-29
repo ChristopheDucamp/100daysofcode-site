@@ -46,11 +46,11 @@ Le web indépenant classique + IndieAuth
 
 ### connexion web (web sign-in)
 
-- modifié (provisoirement pour 100 jours...) mon profil twitter avec l'url de ce site afin de faire fonctionner un "linkback".
+- modifié (provisoirement, pour 100 jours...) mon profil twitter avec l'url de ce site afin de faire fonctionner un "linkback".
 
 ![indiewebify linkback](https://monosnap.com/file/OO15UsKvvLM1bapRijTPClLENBwdXt.png)
-
-### validation h-card 
+### todo du soir  
+#### validation h-card 
 
 Trop de h-cards selon le validateur indiewebify :  
 
@@ -66,16 +66,18 @@ Trop de h-cards selon le validateur indiewebify :
 </div>
 ```
 
-#### email 
+##### email  
+
 ```html
 <a rel="me" class="u-email" mailto:"{{ .Site.Author.authorurl }}">{{ .Site.Author.email }}</a>
 ```
 
-#### ajouter une note / minibio
+##### ajouter une note / minibio
 ```html
 <p class="p-note">{{ .Site.Author.summary }}</p>
 ```
-### article (variables à raffiner)
+
+#### article (variables à raffiner)
 
 - ajouter un auteur 
 
@@ -86,8 +88,6 @@ Trop de h-cards selon le validateur indiewebify :
 - ajouter url ```<a class="u-url" href="…">…</a>```
 
 <!--
-
-## todo 
 
 ### briques basiques (Niveau 1 et 2)
 
@@ -119,3 +119,4 @@ ressources à compléter :
 - [indiewebify my static hugo web site](http://www.petersell.com/2017/indiewebify-my-static-hugo-website)
 
 
+-->
