@@ -6,13 +6,14 @@ tags: [indieweb]
 bigimg: [{src: "/img/path.jpg", desc: "Sur la Route"}]
 ---
 
-## IndieMark Niveau 1]
+## IndieMark Niveau 1
 
-[Référence](https://indieweb.org/IndieMark#Level_1) 
+- [Référence](https://indieweb.org/IndieMark#Level_1) 
+- inspiré par le thème Hugo "[indie-tufte](https://github.com/ChristopherA/LifeWithAlacrityBlog/tree/master/blog/themes/indie-tufte)" de Kevin Marks
 
 ### partial h-card 
 
-Appelée dans le footer par le partiel suivant :
+Une h-card représentative est appelée dans le footer par le partiel suivant :
 
 ```
 <span class="h-card">
@@ -32,7 +33,6 @@ Le validateur suggère l'ajout d'un e-mail et d'une note/bio
 ### Posts 
 
 - Modifié le fichier de configuration pour rajouter des variables de site `Author`.
-
 - ajouté un partiel `auteur.html` 
 
 ```
@@ -70,8 +70,5 @@ Ajouter les [briques de construction indieweb](https://adactio.com/journal/7698)
 ressources à compléter : 
 
 - [So long Disqus, hello Webmention](https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html) Nicolas Hoizey - 2017-07-27 (plugin Jekyll)
--  [indie-tufte](https://github.com/ChristopherA/LifeWithAlacrityBlog/tree/master/blog/themes/indie-tufte) - thème hugo de Kevin Marks
 - [indiewebify my static hugo web site](http://www.petersell.com/2017/indiewebify-my-static-hugo-website)
 
-
--->
