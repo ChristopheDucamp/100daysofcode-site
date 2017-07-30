@@ -40,7 +40,7 @@
               Posté le <a class="u-url" href="{{ .Permalink }}">
               <time class="post-date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
               </a> 
-              (<a rel="author" class="p-author h-card" href="{{ .Site.Author.authorurl }}">{{ .Site.Author.name }}</a>)
+              (<a rel="author" class="p-author h-card" href="{{ .Site.Author.site }}">{{ .Site.Author.name }}</a>)
               </p>
               <div class="post-entry e-content">
                 {{ if .Truncated }}

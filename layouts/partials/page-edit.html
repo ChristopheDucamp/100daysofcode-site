@@ -1,8 +1,13 @@
 
-<div class="btn footer btn-primary btn-lg"> 
+<div class="post-title p-name btn footer btn-primary btn-lg"> 
+<a class="u-url" href="{{ .Permalink }}">{{ .Title }}</a>
 <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
 mise à jour le {{ .Lastmod.Format "02-01-2006"}}</time><br> 
 <a class="btn btn-primary btn-success white hover-bg-green link" role="button" 
 href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}">
 Améliorez cette page</a><br>
 </div>
+
+
+
+

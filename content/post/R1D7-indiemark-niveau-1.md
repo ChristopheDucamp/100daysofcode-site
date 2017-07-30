@@ -1,5 +1,5 @@
 ---
-title: "R1D7 Indiemark Niveau 1-3 - posts"
+title: "R1D7 Indiemark Niveau 1-3 - posts - layout list.html"
 date: 2017-07-30T06:55:03+02:00
 draft: false
 tags: [indieweb]
@@ -65,7 +65,7 @@ href="{{ .Site.Author.authorurl }}">
 
 #### layout `list.html`
 
-Ajouts `h-entry` et ses propriétés comme suit : 
+Ajouté `h-entry` et ses propriétés comme suit : 
 
 ```
 <article class="post-preview h-entry">
@@ -102,17 +102,33 @@ Ajouts `h-entry` et ses propriétés comme suit :
                 </span>
               {{ end }}
 ```
-#### À travailler
 
-- [entry.html](https://github.com/ChristopherA/LifeWithAlacrityBlog/blob/master/blog/themes/indie-tufte/layouts/_default/entry.html) ... 
+##### Travaux validés avec suggestions : 
+
+- Copies syndiquées à rajouter / ajouter les URLs des copies [POSSÉes](https://indieweb.org/POSSE) !
+
+`<a rel="syndication" class="u-syndication" href="…">…</a>`
+
+- Catégories
+
+Ajouter quelques catégories !
+
+`<a class="p-category" href="…">…</a>`
+
+  
+
+
+
+#### Layout `single.html` à travailler
+
+- Inspiration : [entry.html](https://github.com/ChristopherA/LifeWithAlacrityBlog/blob/master/blog/themes/indie-tufte/layouts/_default/entry.html) ... 
 - Ajouter une url de permalien (variable `.Permalink) dans le titre du contenu ```<a class="u-url" href="…">…</a>``` 
 
-<!--
 
-### briques basiques (Niveau 1 et 2)
 
-Ajouter les [briques de construction indieweb](https://adactio.com/journal/7698) essentielles
+### Ressources briques basiques (Niveau 1 et 2)
 
+- Les [briques de construction indieweb](https://adactio.com/journal/7698) essentielles
 - pied de page à travailler 
 	- personnaliser variable `site` pour `author` avec linkback
 	- [h-card](http://microformats.org/wiki/h-card) représentative sur URL avec photo 
@@ -129,6 +145,7 @@ Ajouter les [briques de construction indieweb](https://adactio.com/journal/7698)
 </article>
 ```
 
+<!--
 ### avancé 
 #### webmentions
 
