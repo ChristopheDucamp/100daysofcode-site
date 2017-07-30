@@ -9,44 +9,40 @@ bigimg: [{src: "/img/path.jpg", desc: "Sur la Route"}]
 ## IndieMark Niveau 1]
 
 [Référence](https://indieweb.org/IndieMark#Level_1) 
-#### validation h-card 
 
-Trop de h-cards selon le validateur indiewebify :  
+### partial h-card 
 
-![indiewebify.me](https://monosnap.com/file/caUAs9rggeCEReojYWzG9WLh8j4EnH.png)
+Appelée dans le footer par le partiel suivant :
+
+```
+<span class="h-card">
+<img class="u-photo" src="{{ .Site.Author.authorphoto }}" /> <a rel="me" href="{{ .Site.Author.site }}" >{{ .Site.Author.name }}</a>
+</span>
+```
+
+Le validateur suggère l'ajout d'un e-mail et d'une note/bio
+
+```
+<a rel="me" class="u-email">…</a>
+<p class="p-note">…</p>
+```
+
+
+
+### Posts 
 
 - Modifié le fichier de configuration pour rajouter des variables de site `Author`.
-- Installé dans un partiel `hcard.html` une h-card représentative inspirée du [modèle de Kevin Marks](https://github.com/ChristopherA/LifeWithAlacrityBlog/blob/master/blog/themes/indie-tufte/layouts/partials/hcard.html)
 
-```
-<div class="h-card">
-<img class="u-photo" src="{{ .Site.Author.authorphoto }}" />
-<h1><a href="{{ .Site.Author.authorurl }}" >{{ .Site.Author.name }}</a><h1>
-</div>
-```
-
-##### email  
-
-```html
-<a rel="me" class="u-email" mailto:"{{ .Site.Author.authorurl }}">{{ .Site.Author.email }}</a>
-```
-
-##### ajouter une note / minibio
-```html
-<p class="p-note">{{ .Site.Author.summary }}</p>
-```
-
-#### article (variables à raffiner)
-
-- ajouter un auteur 
+- ajouté un partiel `auteur.html` 
 
 ```
 <a rel="author" class="p-author h-card" href="{{ .Site.Author.authorurl }}">{{ .Site.Author.name }}</a>
+
 ```
 
 - ajouter url ```<a class="u-url" href="…">…</a>```
 
-<!--
+
 
 ### briques basiques (Niveau 1 et 2)
 
