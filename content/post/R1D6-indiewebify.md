@@ -31,9 +31,9 @@ Améliorez cette page</a>
   {{< figure link="/img/bureau-autriche-campagne.jpg" caption="2ème bureau" alt="Mon bureau dans le jardin" >}}
   {{< figure thumb="-thumb" link="/img/hexagon.jpg" >}}
   {{< figure thumb="-thumb" link="/img/sphere.jpg" caption="Sphere" >}}
-
-  
 {{< /gallery >}}
+
+
 ## IndieMark Niveau 1
 
 Le web indépenant classique + IndieAuth
@@ -67,11 +67,13 @@ Trop de h-cards selon le validateur indiewebify :
 ```
 
 #### email 
+
 ```html
-<a rel="me" class="u-email" mailto:"{{ .Site.Author.authorurl }}">{{ .Site.Author.email }}</a>
+<a rel="me" class="u-email" mailto:"{{ .Site.Author.authoremail }}">{{ .Site.Author.email }}</a>
 ```
 
 #### ajouter une note / minibio
+
 ```html
 <p class="p-note">{{ .Site.Author.summary }}</p>
 ```
@@ -84,38 +86,4 @@ Trop de h-cards selon le validateur indiewebify :
 ```
 
 - ajouter url ```<a class="u-url" href="…">…</a>```
-
-<!--
-
-## todo 
-
-### briques basiques (Niveau 1 et 2)
-
-Ajouter les [briques de construction indieweb](https://adactio.com/journal/7698) essentielles
-
-- pied de page à travailler 
-	- personnaliser variable `site` pour `author` avec linkback
-	- [h-card](http://microformats.org/wiki/h-card) représentative sur URL avec photo 
-	- rel="me" sur les icônes sociales
-- ajouter `h-entry` aux articles
-
-```html
-<article class="h-entry">
-  <div class="e-content p-name">Hello world! This is my first indieweb post.</div>
-
-  <a class="u-url" href="https://exemple.com/my-first-post">
-    Publié le <time class="dt-published">2017-07-28 11:10:22+0000</time>
-  </a>
-</article>
-```
-
-### avancé 
-#### webmentions
-
-ressources à compléter : 
-
-- [So long Disqus, hello Webmention](https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html) Nicolas Hoizey - 2017-07-27 (plugin Jekyll)
--  [indie-tufte](https://github.com/ChristopherA/LifeWithAlacrityBlog/tree/master/blog/themes/indie-tufte) - thème hugo de Kevin Marks
-- [indiewebify my static hugo web site](http://www.petersell.com/2017/indiewebify-my-static-hugo-website)
-
 
