@@ -52,7 +52,7 @@ Il devrait y avoir aussi un moyen de découvrir l'auteur du post  — soit un li
 
 Voir la [doc h-entry](https://microformats.org/wiki/h-entry) pour une liste complète.
 
-#### Travaux en cours sur variables
+#### Travaux sur variables
 
 - Modifié le fichier de configuration pour rajouter des variables de site `Author`.
 - ajouté un partiel `auteur.html` dans `post-meta.html` (style à travailler)
@@ -63,6 +63,45 @@ href="{{ .Site.Author.authorurl }}">
 {{ .Site.Author.name }}</a>
 ```
 
+#### layout `list.html`
+
+Ajouts `h-entry` et ses propriétés comme suit : 
+
+```
+<article class="post-preview h-entry">
+              <a class="u-url" href="{{ .Permalink }}">
+                <h2 class="post-title p-name">{{ .Title }}</h2>
+    
+                {{ if .Params.subtitle }}
+                  <h3 class="post-subtitle">
+                    {{ .Params.subtitle }}
+                  </h3>
+                {{ end }}
+              </a>
+    
+              <p class="post-meta">
+              Posté le <a class="u-url" href="{{ .Permalink }}">
+              <time class="post-date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+              </a> 
+              (<a rel="author" class="p-author h-card" href="{{ .Site.Author.site }}">{{ .Site.Author.name }}</a>)
+              </p>
+              <div class="post-entry e-content">
+                {{ if .Truncated }}
+                  {{ .Summary }}
+                  <a href="{{ .Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a>
+                {{ else }}
+                  {{ .Content }}
+                {{ end }}
+              </div>
+    
+              {{ if .Params.tags }}
+                <span class="post-meta">
+                  {{ range .Params.tags }}
+                    #<a href="{{ $.Site.LanguagePrefix }}/tags/{{ . | urlize }}">{{ . }}</a>&nbsp;
+                  {{ end }}
+                </span>
+              {{ end }}
+```
 #### À travailler
 
 - [entry.html](https://github.com/ChristopherA/LifeWithAlacrityBlog/blob/master/blog/themes/indie-tufte/layouts/_default/entry.html) ... 
