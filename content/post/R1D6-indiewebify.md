@@ -2,11 +2,10 @@
 title: "R1D6 : Premiers pas pour indiewebifier Hugo"
 date: 2017-07-29
 tags: [indieweb]
-bigimg: [{src: "/img/pente-ecole-autriche.jpg", desc: "2ème bureau"}]
+bigimg: [{src: "/img/bureau-autriche-campagne.jpg", desc: "2ème bureau"}]
 ---
 
-Installé un 2ème bureau pour travailler au calme au pied d'une "future pente-école" pour le parapente. 
-La maison est désormais réveillée, les travaux matinaux s'arrêteront là. 2 heures pour créer un bouton "Améliorez cette page", aménager un un dossier pour déposer mes futures photos d'excursions. Et amorcer les étapes d'indiewebification.<!--more-->
+6ème jour. La maison est désormais réveillée. Difficile d'avancer. Récap sur les travaux matinaux. 2 heures pour raffiner un bouton "edit", aménager un dossier photos et amorcer les étapes d'indiewebification...<!--more-->
 
 ## Création et Mise en Forme du Bouton "Améliorer cette page"
 
@@ -29,15 +28,15 @@ Améliorez cette page</a>
 - Galerie dans les posts : test du shortcode `gallery` (modèle [Photoswipe](/post/echantillon-photoswipe-gallery))
 
 {{< gallery caption-effect="fade" >}}
-  {{< figure thumb="-thumb" link="/img/pente-ecole-autriche.jpg" caption="vue de mon bureau">}}
-  {{< figure link="/img/bureau-autriche-campagne.jpg" caption="2ème bureau" alt="Mon 2ème bureau dans le jardin" >}}
+  {{< figure link="/img/bureau-autriche-campagne.jpg" caption="2ème bureau" alt="Mon bureau dans le jardin" >}}
+  {{< figure thumb="-thumb" link="/img/hexagon.jpg" >}}
   {{< figure thumb="-thumb" link="/img/sphere.jpg" caption="Sphere" >}}
 
   
 {{< /gallery >}}
 ## IndieMark Niveau 1
 
-Le web indépendant classique + IndieAuth
+Le web indépenant classique + IndieAuth
 
 > IndieMark Level 1 has the general theme of owning your own domain, for sign-in, and publishing posts
 
@@ -46,15 +45,16 @@ Le web indépendant classique + IndieAuth
 
 ### connexion web (web sign-in)
 
-- modifié (provisoirement, pour 100 jours...) mon profil twitter avec l'url de ce site afin de faire fonctionner un "linkback".
+- modifié (provisoirement pour 100 jours...) mon profil twitter avec l'url de ce site afin de faire fonctionner un "linkback".
 
 ![indiewebify linkback](https://monosnap.com/file/OO15UsKvvLM1bapRijTPClLENBwdXt.png)
-### todo du soir  
-#### validation h-card 
+
+### validation h-card 
 
 Trop de h-cards selon le validateur indiewebify :  
 
 ![indiewebify.me](https://monosnap.com/file/caUAs9rggeCEReojYWzG9WLh8j4EnH.png)
+
 
 - Modifié le fichier de configuration pour rajouter des variables de site `Author`.
 - Installé dans un partiel `hcard.html` une h-card représentative inspirée du [modèle de Kevin Marks](https://github.com/ChristopherA/LifeWithAlacrityBlog/blob/master/blog/themes/indie-tufte/layouts/partials/hcard.html)
@@ -66,18 +66,16 @@ Trop de h-cards selon le validateur indiewebify :
 </div>
 ```
 
-##### email  
-
+#### email 
 ```html
 <a rel="me" class="u-email" mailto:"{{ .Site.Author.authorurl }}">{{ .Site.Author.email }}</a>
 ```
 
-##### ajouter une note / minibio
+#### ajouter une note / minibio
 ```html
 <p class="p-note">{{ .Site.Author.summary }}</p>
 ```
-
-#### article (variables à raffiner)
+### article (variables à raffiner)
 
 - ajouter un auteur 
 
@@ -88,6 +86,8 @@ Trop de h-cards selon le validateur indiewebify :
 - ajouter url ```<a class="u-url" href="…">…</a>```
 
 <!--
+
+## todo 
 
 ### briques basiques (Niveau 1 et 2)
 
@@ -119,4 +119,3 @@ ressources à compléter :
 - [indiewebify my static hugo web site](http://www.petersell.com/2017/indiewebify-my-static-hugo-website)
 
 
--->
