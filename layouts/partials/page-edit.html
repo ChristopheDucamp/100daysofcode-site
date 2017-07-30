@@ -1,6 +1,7 @@
 
-<div class="post-title p-name btn footer btn-primary btn-lg"> 
-<a class="u-url" href="{{ .Permalink }}">"{{ .Title }}"</a>
+<div class="btn footer btn-primary btn-lg"> 
+<a class="post-title p-name u-url" href="{{ .Permalink }}">"{{ .Title }}"</a>
+<time class="dt-published" datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}"></time>
 <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
 <br>a été mise à jour le {{ .Lastmod.Format "02-01-2006"}}</time>
 <br>par <a rel="author" class="p-author h-card" href="{{ .Site.Author.site }}">{{ .Site.Author.name }}</a>
