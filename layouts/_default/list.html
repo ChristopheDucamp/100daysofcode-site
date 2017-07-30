@@ -25,9 +25,9 @@
         {{ end }}
         <div class="posts-list">
           {{ range .Paginator.Pages }}
-            <article class="post-preview">
-              <a href="{{ .Permalink }}">
-                <h2 class="post-title">{{ .Title }}</h2>
+            <article class="post-preview h-entry">
+              <a class="u-url" href="{{ .Permalink }}">
+                <h2 class="post-title p-name">{{ .Title }}</h2>
     
                 {{ if .Params.subtitle }}
                   <h3 class="post-subtitle">
@@ -37,9 +37,12 @@
               </a>
     
               <p class="post-meta">
-              Posté le <time class="post-date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+              Posté le <a class="u-url" href="{{ .Permalink }}">
+              <time class="post-date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+              </a> 
+              <a rel="author" class="p-author h-card" href="{{ .Site.Author.authorurl }}">{{ .Site.Author.name }}</a>
               </p>
-              <div class="post-entry">
+              <div class="post-entry e-content">
                 {{ if .Truncated }}
                   {{ .Summary }}
                   <a href="{{ .Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a>

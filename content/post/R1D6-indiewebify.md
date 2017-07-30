@@ -66,24 +66,14 @@ Trop de h-cards selon le validateur indiewebify :
 </div>
 ```
 
-#### email 
+#### email (option)
 
 ```html
 <a rel="me" class="u-email" mailto:"{{ .Site.Author.authoremail }}">{{ .Site.Author.email }}</a>
 ```
 
-#### ajouter une note / minibio
+#### ajouter une note / minibio (option)
 
 ```html
 <p class="p-note">{{ .Site.Author.summary }}</p>
 ```
-### article (variables à raffiner)
-
-- ajouter un auteur 
-
-```
-<a rel="author" class="p-author h-card" href="{{ .Site.Author.authorurl }}">{{ .Site.Author.name }}</a>
-```
-
-- ajouter url ```<a class="u-url" href="…">…</a>```
-

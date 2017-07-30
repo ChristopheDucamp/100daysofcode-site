@@ -2,9 +2,10 @@
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <article class="h-entry post" role="main" class="blog-post">
-       <div class="e-content p-name">{{ .Content }}</div>
+       <article role="main" class="blog-post">
+        {{ .Content }}
       </article>
+
 <!-- webmention a mettre en forme -->      
 <script id="webmention-hosted">
 (function () {
@@ -16,9 +17,9 @@ sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url ||
 s.parentNode.insertBefore(sn, s);
 }());
 </script>
-<!-- /webmention a styliser -->   
+<!-- /webmention -->   
 
- <!-- bloc edit - date de mise a jour au format fr a raffiner. ex : <nomdujour> 1er -->
+<!-- bloc edit - date de mise a jour au format fr a raffiner. ex : <nomdujour> 1er -->
         {{ partial "page-edit.html" . }}
 <!-- /bloc edit -->        
 
