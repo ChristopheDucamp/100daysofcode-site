@@ -1,27 +1,22 @@
 {{ define "main" }}
-<div class="container" role="main">
+<div class="container h-entry" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-       <article role="main" class="blog-post h-entry">
+       <article role="main" class="blog-post e-content">
         {{ .Content }}
+        
+        <!-- bloc edit - date de mise a jour au format fr a raffiner. ex : <nomdujour> 1er -->
+        {{ partial "page-edit.html" . }}
+        <!-- /bloc edit --> 
+        
+        <!-- partial webmention.html a inserer --> 
+
+       
+
+        
+        
       </article>
 
-<!-- webmention a mettre en forme -->      
-<script id="webmention-hosted">
-(function () {
-var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
-url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
-url = url && url[0] ? url[0].href : false;
-sn.type = "text/javascript"; sn.async = true;
-sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
-s.parentNode.insertBefore(sn, s);
-}());
-</script>
-<!-- /webmention -->   
-
-<!-- bloc edit - date de mise a jour au format fr a raffiner. ex : <nomdujour> 1er -->
-        {{ partial "page-edit.html" . }}
-<!-- /bloc edit -->        
 
       <ul class="pager blog-pager">
         {{ if .PrevInSection }}
