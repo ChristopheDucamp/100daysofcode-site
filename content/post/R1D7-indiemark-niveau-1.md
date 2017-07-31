@@ -1,5 +1,5 @@
 ---
-title: "R1D7 Indiemark Niveau 1-3 - posts - layout list.html"
+title: "R1D7 Indiemark Niveau 1"
 date: 2017-07-30T06:55:03+02:00
 draft: false
 tags: [indieweb]
@@ -9,15 +9,14 @@ bigimg: [{src: "/img/arc-en-ciel-autriche.jpg", desc: "arc-en-ciel"}]
 ## Chantier IndieMark Niveau 1
 
 - [Référence indieweb](https://indieweb.org/IndieMark#Level_1) 
-- Inspiration thème Hugo "[indie-tufte](https://github.com/ChristopherA/LifeWithAlacrityBlog/tree/master/blog/themes/indie-tufte)" de Kevin Marks
 
-Statut : chantier indieweb. Où placer le `h-entry` <https://indiewebify.me/validate-h-entry/> dans le thème "beautiful-hugo" ?
+**Production du jour** : Les posts sont marqués avec  `h-entry` <https://indiewebify.me/validate-h-entry/> dans le thème "beautiful-hugo".
 
 <!--more-->
 
 ### Création d'un partiel `h-card.html` 
 
-Une h-card représentative est désormais appelée dans le footer par le partiel suivant 
+Une h-card représentative est appelée dans le footer par le partiel suivant 
 
 ```
 <span class="h-card">
@@ -36,19 +35,17 @@ Le validateur suggère l'ajout d'un e-mail et d'une note/bio
 ```
 
 
-### Posts 
+### Posts et `h-entry`
 #### Instructions
 
-Vos "h-entries" devraient avoir, au minimum, les propriétés suivantes :
+Après modifications, les "h-entries" disposent des propriétés suivantes :
 
   * `e-content` — le contenu principal du post
-  * `p-name` — si votre post a un nom, utilisez ce nom de classe. Autrement, (si par exemple le post est une [note](https://indieweb.org/note)), laissez tomber ou appliquez le même élément comme `e-`.
+  * `p-name` — pour le nom du post 
   * `dt-published` — le "datetime" auquel le post a été publié, en format ISO8601, avec un "timezone"
   * `u-url` — l'URL canonique du post, tout spécialement importante sur les pages répertoriant plusieurs posts.
 
-C'est une convention commune pour le datetime publié d'être un lien vers le post en lui-même, mais il peut être séparé.
-
-Il devrait y avoir aussi un moyen de découvrir l'auteur du post  — soit un lien vers la page d'accueil (qui devrait avoir votre h-card) à partir de n'importe où sur la page avec `rel=author`, ou facultativement embarquer un `p-author h-card` dans le `h-entry`.
+Adopté la convention d'un datetime sous forme de lien vers le post en lui-même.
 
 Voir la [doc h-entry](https://microformats.org/wiki/h-entry) pour une liste complète.
 
@@ -119,12 +116,42 @@ Ajouter quelques catégories !
 
 
 
-#### Layout `single.html` à travailler
+#### Layout `single.html`
 
-- Inspiration : [entry.html](https://github.com/ChristopherA/LifeWithAlacrityBlog/blob/master/blog/themes/indie-tufte/layouts/_default/entry.html) ... 
-- Ajouter une url de permalien (variable `.Permalink) dans le titre du contenu ```<a class="u-url" href="…">…</a>``` 
+- Ajouté une url de permalien (variable `.Permalink) dans le titre du contenu ```<a class="u-url" href="…">…</a>``` 
 
+le code de `single.html` à cette heure :
 
+```
+{{ define "main" }}
+<div class="container h-entry" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+       <article role="main" class="blog-post e-content">
+        {{ .Content }}
+        
+        <!-- bloc ameliorer la page -->
+        {{ partial "page-edit.html" . }}
+        <!-- /bloc amelioer la page --> 
+        
+      </article>
+```
+
+avec son partiel à raffiner `page-edit.html` dans lequel j'ai ajouté une propriété `p-name` et `u-url` sur le titre du post.
+
+```
+<div class="btn footer btn-primary btn-lg"> 
+<a class="post-title p-name u-url" href="{{ .Permalink }}">"{{ .Title }}"</a>
+<time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}"></time>
+<time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+<br>a été mise à jour le {{ .Lastmod.Format "02-01-2006"}}</time>
+<br>par <a rel="author" class="p-author h-card" href="{{ .Site.Author.site }}">{{ .Site.Author.name }}</a>
+<br>
+<a class="btn btn-primary btn-success white hover-bg-green link" role="button" 
+href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}">
+Améliorez cette page</a><br>
+</div>
+```
 
 ### Ressources briques basiques (Niveau 1 et 2)
 
@@ -145,14 +172,13 @@ Ajouter quelques catégories !
 </article>
 ```
 
-<!--
-### avancé 
-#### webmentions
 
-ressources à compléter : 
+
+#### Prochaines étape IndieMark : Webmentions
+
+Ressources à compléter : 
 
 - [So long Disqus, hello Webmention](https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html) Nicolas Hoizey - 2017-07-27 (plugin Jekyll)
 - [indiewebify my static hugo web site](http://www.petersell.com/2017/indiewebify-my-static-hugo-website)
 
--->
 
