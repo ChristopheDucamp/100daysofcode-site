@@ -1,14 +1,13 @@
 ---
 title: "R1D7 Indiemark Niveau 1"
+subtitle: Chantier IndieMark Niveau 1
 date: 2017-07-30T06:55:03+02:00
 draft: false
 tags: [indieweb]
 bigimg: [{src: "/img/arc-en-ciel-autriche.jpg", desc: "arc-en-ciel"}]
 ---
 
-## Chantier IndieMark Niveau 1
-
-- [Référence indieweb](https://indieweb.org/IndieMark#Level_1) 
+- Lien de [référence indieweb : IndieMark](https://indieweb.org/IndieMark#Level_1) 
 
 **Production du jour** : Les posts sont marqués avec  `h-entry` <https://indiewebify.me/validate-h-entry/> dans le thème "beautiful-hugo".
 
@@ -176,9 +175,10 @@ Améliorez cette page</a><br>
 
 #### Prochaines étape IndieMark : Webmentions
 
-Ressources à compléter : 
+Ressources à compléter pour implémentation 
 
 - [So long Disqus, hello Webmention](https://nicolas-hoizey.com/2017/07/so-long-disqus-hello-webmentions.html) Nicolas Hoizey - 2017-07-27 (plugin Jekyll)
 - [indiewebify my static hugo web site](http://www.petersell.com/2017/indiewebify-my-static-hugo-website)
+- [Webmention Rocks](https://webmention.rocks/) - série de tests 
 
 

@@ -11,7 +11,7 @@ tags: [100daysofcode, https, dates]
 
 
 - déploiement netlify : ajout certificat **https** 
-- [dates en français](R1D4-100daysofcode). [FuckingGoDateFormat](http://fuckinggodateformat.com/)
+- [dates en français](/2017/07/27/r1d4--mise-en-forme-des-dates-dans-gohugo/). [FuckingGoDateFormat](http://fuckinggodateformat.com/)
 	- ajouté une date de modification en pied de page
 - lien "**améliorez cette page**" pointant vers repo github.
 - complété l'[archétype](https://gohugo.io/content-management/archetypes/#readout) `default.md` avec les types de contenu `lastmod`, `tags`, `bigimg`.
