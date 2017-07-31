@@ -95,19 +95,19 @@ disqusShortname = "xtof"
     url = "page/a-propos/"
     weight = 3
 
-#[[menu.main]]
-#    identifier = "samples"
-#    name = "Échantillons"
-#    weight = 2
+[[menu.main]]
+    identifier = "notes"
+    name = "Notes"
+    weight = 2
+
+[[menu.main]]
+   parent = "notes"
+    name = "Échantillon Grande Image"
+    url = "2017/07/27/échantillon-grande-image/"
+    weight = 1
 
 #[[menu.main]]
- #   parent = "samples"
-  #  name = "Échantillon Grande Image"
-   # url = "2017/07/27/échantillon-grande-image/"
-    # weight = 1
-
-#[[menu.main]]
-#    parent = "samples"
+#    parent = "notes"
 #    name = "Échantillon Math"
 #    url = "2017/07/27/échantillon-math"
 #    weight = 2
