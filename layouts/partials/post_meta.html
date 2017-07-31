@@ -1,3 +1,9 @@
-<span class="post-meta">
-{{ partial "auteur.html" .}} le <time class="post-date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time> 
-</span>
+<a class="post-meta post-title p-name u-url" href="{{ .Permalink }}">
+{{ partial "auteur.html" .}} le <time class="post-date dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+{{ .Date.Format "2" }}{{ if in (slice 1) .Date.Day}}er{{ end }}
+{{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time> 
+</a>
+
+
+
+
