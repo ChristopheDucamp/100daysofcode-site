@@ -5,15 +5,14 @@
        <article role="main" class="blog-post e-content">
         {{ .Content }}
         
-        <!-- bloc edit - date de mise a jour au format fr a raffiner. ex : <nomdujour> 1er -->
-        {{ partial "page-edit.html" . }}
-        <!-- /bloc edit --> 
-        
+      
         <!-- partial webmention a inserer --> 
         {{ partial "webmention.html" . }}
        
 
-        
+         <!-- bloc edit - date de mise a jour au format fr a raffiner. ex : <nomdujour> 1er -->
+        {{ partial "page-edit.html" . }}
+        <!-- /bloc edit --> 
         
       </article>
 
