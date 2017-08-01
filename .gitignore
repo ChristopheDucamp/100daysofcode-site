@@ -1,0 +1,11 @@
+
+.DS_Store
+.gitignore
+.idea/
+content/.DS_Store
+content/post/.DS_Store
+data/.DS_Store
+layouts/.DS_Store
+layouts/partials/.DS_Store
+static/.DS_Store
+themes/.DS_Store
