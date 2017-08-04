@@ -5,7 +5,7 @@ date: 2017-08-04T10:17:10+02:00
 lastmod: 2017-08-04T10:44:10+02:00
 draft: false
 tags: [css, bootstrap, codepen, freecodecamp]
-bigimg: [{src: "/img/path.jpg", desc: "Sur la Route"}]
+bigimg: [{src: "img/sur-la-route-tapuscrit.jpg", desc: "rouleau de papier calque de 36 mètres"}, {src: "/img/path.jpg", desc: "Sur la Route"}]
 ---
   
   
