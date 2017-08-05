@@ -2,7 +2,7 @@
 title: "R1D13 - Display Challenge"
 subtitle: "200 divs à aligner et colorer"
 date: 2017-08-05T15:33:31+02:00
-lastmod: "2017-08-05T15:54:31+02:00"
+lastmod: "2017-08-05T16:23:31+02:00"
 draft: false
 tags: [100daysofcode, display, exercice, emmet,css,]
 bigimg: [{src: "/img/r1d13-200-divs.png", desc: "Display Challenge (Todd McLeod)"}]
@@ -27,4 +27,6 @@ Cherché et séché sur l'exercice du haut. Séché sur la syntaxe emmet qui per
 
 Sévèrement emballé par les progrès réalisés sur HTML/CSS qui me redonnent confiance pour retourner bricoler le thème de ce site ces prochains mois. 
 
-*Statut* : Terminé la section du [cours en ligne HTML/CSS de Todd](https://greatercommons.com/learn/6708511014649856) traitant joyeusement des fondamentaux de la structure documentaire du HTML. Démarrage à suivre de révision des fondamentaux de layout. (éléments de bloc vs éléments en ligne ou "incise")
+*Statut* : Emballé.
+
+Terminé la section du [cours en ligne HTML/CSS de Todd](https://greatercommons.com/learn/6708511014649856) traitant joyeusement de la structure documentaire du HTML sémantique. Encore bien loin des frameworks de type bootstrap. Démarrage à venir de révision des fondamentaux de layout (éléments de bloc vs éléments en ligne ou "incise"). Impatient de pratiquer Flex.
