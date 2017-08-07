@@ -34,6 +34,12 @@ Achevé la grosse section Flexbox (toujours accompagné par l'excellent cours en
 - [A complete guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Chris Coyier  
 - [Mise en page avec flexbox](https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/la-mise-en-page-avec-flexbox) - openclassrooms
 
+### anti-sèche 
+
+[Trouvée chez jonibologna](http://jonibologna.com/flexbox-cheatsheet/) :
+
+![anti-sèche](/img/flex/flexboxsheet.png)
+
 ## r1d15-log 
 
 ### Flexbox
