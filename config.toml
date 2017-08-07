@@ -82,8 +82,10 @@ disqusShortname = "xtof"
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
-  angledQuotes = false
+  angledQuotes = true
+  smartypantsQuotesNBSP = true
   latexDashes = true
+  
 
 [[menu.main]]
     name = "Blog"
@@ -122,4 +124,7 @@ disqusShortname = "xtof"
     name = "Tags"
     url = "tags"
     weight = 3
+
+# guillemets français
+
 
