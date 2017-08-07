@@ -11,7 +11,7 @@ bigimg: [{src: "/img/flex/flexbox-froggy.png", desc: "flexbox froggy"}]
 
 ## Flexbox et la "Pensée conteneur" 
 
-Achevé la grosse section Flexbox (toujours accompagné par l'excellent cours en ligne HTML/CSS de Todd Mc Leod). Compris le concept et l'importance de l'axe principal et de l'axe secondaire. Certaines propriétés fonctionnent uniquement sur l'axe principal, ou l'axe secondaire. Gros paquet de connaissance à assimiler et pratiquer. Le [guide CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) et le jeu du flexbox-froggy demeurent deux excellentes ressources illustrées pour pratiquer ces nouvelles propriétés : 
+Achevé la "grosse section" Flexbox (toujours accompagné par l'excellent cours en ligne HTML/CSS de Todd Mc Leod). Compris le concept et l'importance de l'axe principal et de l'axe secondaire. Certaines propriétés fonctionnent uniquement sur l'axe principal, ou l'axe secondaire. Gros paquet de connaissance à assimiler et pratiquer. Le [guide CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) et le jeu du flexbox-froggy demeurent deux excellentes ressources illustrées pour pratiquer ces nouvelles propriétés : 
 
 1. **Propriétés du conteneur**
 	2. Flex-direction
@@ -31,24 +31,28 @@ Achevé la grosse section Flexbox (toujours accompagné par l'excellent cours en
 
 ### Ressources flex
 
+Les ressources que je conserve à portée de main : 
+
 - [A complete guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Chris Coyier  
-- [Mise en page avec flexbox](https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/la-mise-en-page-avec-flexbox) - openclassrooms
-
-### anti-sèche 
-
-[Trouvée chez jonibologna](http://jonibologna.com/flexbox-cheatsheet/) :
+- [Mise en page avec flexbox](https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/la-mise-en-page-avec-flexbox) - Openclassrooms
+- et pour finir l'excellent ouvrage "[A field Guide To FlexBox](https://gumroad.com/l/UVuuf)" avec son [anti-sèche](http://jonibologna.com/flexbox-cheatsheet/) par Joni Trythall
 
 ![anti-sèche](/img/flex/flexboxsheet.png)
+
+### Pen pour s'entraîner 
+
+{{% codepen id="pAlei" tab="css" %}}
 
 ## r1d15-log 
 
 ### Flexbox
 
-Parvenu, non sans difficultés, à venir à bout de [14 pages d'exercices](https://github.com/GoesToEleven/html-css-bootcamp/tree/master/031_flexbox/03_hands-on-exercises/01_challenges) pour mettre en pratique les propriétés Flexbox et des 24 pages du jeu [Flexbox Froggy](http://flexboxfroggy.com/#fr).
+- [14 pages d'exercices par Todd McLeod](https://github.com/GoesToEleven/html-css-bootcamp/tree/master/031_flexbox/03_hands-on-exercises/01_challenges) 
+- 24 pages du jeu [Flexbox Froggy](http://flexboxfroggy.com/#fr).
 
 ### Hugo 0.26
 
-Ce site est désormais motorisé par la nouvelle version  [Hugo 0.26.](https://gohugo.io/news/0.26-relnotes/). Modifié `config.toml` pour activer les "guillemets en français" 
+Mise à jour motorisation  [Hugo 0.26.](https://gohugo.io/news/0.26-relnotes/). Modifié `config.toml` pour activer les "guillemets en français" 
 
 ```toml
 angledQuotes = true
