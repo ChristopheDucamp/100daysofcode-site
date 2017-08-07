@@ -5,7 +5,7 @@ date: 2017-07-27
 tags: ["exemple", "markdown"]
 ---
 
-Vous pouvez écrire ici en [markdown normal](http://markdowntarioial.com/)  <!--more-->et Hugo le convertira automatiquement en une belle page web. Je vous encourage fortement à [prendre 5 minutes pour apprendre à écrire dans markdown](http://markdowntarioial.com/) - cela vous apprendra comment transformer le texte normal en gras / italique / titres / tables / etc.
+Vous pouvez écrire ici en [markdown normal](http://markdowntutorial.com/)  <!--more-->et Hugo le convertira automatiquement en une belle page web. Je vous encourage fortement à [prendre 5 minutes pour apprendre à écrire dans markdown](http://markdowntutorial.com/) - cela vous apprendra comment transformer le texte normal en gras / italique / titres / tables / etc.
 
 **Voici du texte en gras**
 

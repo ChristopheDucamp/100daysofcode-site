@@ -105,7 +105,7 @@ disqusShortname = "xtof"
 [[menu.main]]
    parent = "notes"
     name = "Échantillon Grande Image"
-    url = "2017/07/27/échantillon-grande-image/"
+    url = "2017/07/27/exemple-de-grande-image/"
     weight = 1
 
 #[[menu.main]]

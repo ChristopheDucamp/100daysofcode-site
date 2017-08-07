@@ -1,5 +1,5 @@
 ---
-title: Échantillon Grande Image
+title: Exemple de Grande Image
 subtitle: Utiliser Plusieurs Images
 date: 2017-07-27
 tags: ["exemple", "bigimg"]

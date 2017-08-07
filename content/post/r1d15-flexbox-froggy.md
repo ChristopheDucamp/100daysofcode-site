@@ -4,14 +4,14 @@ subtitle: Dans le casse-tête de la "pensée conteneur"
 date: 2017-08-07T09:46:52+02:00
 lastmod: "2017-08-07T17:23:52+02:00"
 draft: false
-tags: [flexbox,hugo]
+tags: [100daysofcode,flexbox,hugo]
 bigimg: [{src: "/img/flex/flexbox-froggy.png", desc: "flexbox froggy"}]
 ---
 <!--more-->
 
 ## Flexbox et la "Pensée conteneur" 
 
-Achevé la grosse section Flexbox (toujours accompagné par l'excellent cours en ligne HTML/CSS de Todd Mc Leod). Compris le concept et l'importance de l'axe principal et de l'axe secondaire. Certaines propriétés fonctionnent uniquement sur l'axe principal, ou l'axe secondaire. Gros paquet de connaissance à assimiler et pratiquer. Le [guide CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) et le jeu du flexbox-froggy demeurent deux excellentes ressources illustrée pour poursuivre la pratique de ces nouvelles propriétés : 
+Achevé la grosse section Flexbox (toujours accompagné par l'excellent cours en ligne HTML/CSS de Todd Mc Leod). Compris le concept et l'importance de l'axe principal et de l'axe secondaire. Certaines propriétés fonctionnent uniquement sur l'axe principal, ou l'axe secondaire. Gros paquet de connaissance à assimiler et pratiquer. Le [guide CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) et le jeu du flexbox-froggy demeurent deux excellentes ressources illustrées pour pratiquer ces nouvelles propriétés : 
 
 1. **Propriétés du conteneur**
 	2. Flex-direction
