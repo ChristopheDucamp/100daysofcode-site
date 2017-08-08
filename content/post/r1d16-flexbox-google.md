@@ -8,7 +8,7 @@ tags: [100daysofcode, flexbox, media queries]
 bigimg: [{src: "/img/flex/flexbox-design-patterns.png", desc: "Ma première flexbox"}]
 ---
 
-16ème jour. Absorbé par le cours HTML/CSS de Todd McLeod sur les quatre [sections couvrant la pratique du design flexbox](https://github.com/GoesToEleven/html-css-bootcamp). Enthousiaste pour imaginer de futurs layouts pour les galeries photos. 
+16ème jour. Absorbé par le cours HTML/CSS de Todd McLeod sur les quatre [sections couvrant la pratique du design flexbox](https://github.com/GoesToEleven/html-css-bootcamp). Enthousiaste pour imaginer de futurs layouts pour les galeries photos. <!--more-->
 
 Capté les *media-queries*. Quelques travaux pratiques sur des [exercices provenant des fondamentaux du web de Google](https://github.com/GoesToEleven/html-css-bootcamp/tree/master/033_flexbox-google) :
 
