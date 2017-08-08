@@ -1,5 +1,5 @@
 ---
-title: "R1d16 Flexbox Google"
+title: "R1d16 Roméo dans la boîte"
 subtitle: "Apprentissage design pattern flexbox"
 date: 2017-08-08T15:33:21+02:00
 lastmod: 2017-08-08T15:33:21+02:00
@@ -8,7 +8,9 @@ tags: [100daysofcode, flexbox, media queries]
 bigimg: [{src: "/img/flex/flexbox-design-patterns.png", desc: "Ma première flexbox"}]
 ---
 
-16ème jour. Absorbé par le cours HTML/CSS de Todd McLeod sur les quatre [sections couvrant la pratique du design flexbox](https://github.com/GoesToEleven/html-css-bootcamp). Enthousiaste pour imaginer de futurs layouts pour les galeries photos. <!--more-->
+16ème jour. Roméo, le petit châton est bien dans la boîte 007... travaux à poursuivre !  
+
+Absorbé par le cours HTML/CSS de Todd McLeod sur les quatre [sections couvrant la pratique du design flexbox](https://github.com/GoesToEleven/html-css-bootcamp). Enthousiaste pour imaginer de futurs layouts pour les galeries photos. <!--more-->
 
 Capté les *media-queries*. Quelques travaux pratiques sur des [exercices provenant des fondamentaux du web de Google](https://github.com/GoesToEleven/html-css-bootcamp/tree/master/033_flexbox-google) :
 
