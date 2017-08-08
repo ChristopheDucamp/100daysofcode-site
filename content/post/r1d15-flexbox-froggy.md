@@ -11,7 +11,7 @@ bigimg: [{src: "/img/flex/flexbox-froggy.png", desc: "flexbox froggy"}]
 
 ## Flexbox et la "Pensée conteneur" 
 
-Achevé la "grosse section" Flexbox (toujours accompagné par l'excellent cours en ligne HTML/CSS de Todd Mc Leod). Compris le concept et l'importance de l'axe principal et de l'axe secondaire. Certaines propriétés fonctionnent uniquement sur l'axe principal, ou l'axe secondaire. Gros paquet de connaissance à assimiler et pratiquer. Le [guide CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) et le jeu du flexbox-froggy demeurent deux excellentes ressources illustrées pour pratiquer ces nouvelles propriétés : 
+Achevé la "grosse section" Flexbox (toujours accompagné par l'excellent [tutoriel HTML/CSS](https://www.greatercommons.com/learn/6708511014649856) de Todd Mc Leod). Compris le concept et l'importance de l'axe principal et de l'axe secondaire. Certaines propriétés fonctionnent uniquement sur l'axe principal, ou l'axe secondaire. Un paquet de connaissance à assimiler et pratiquer. Le [guide CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), le [fascicule de Joni Trythall](http://jonibologna.com/announcing-a-field-guide-to-flexbox/) et le jeu du [flexbox-froggy](http://flexboxfroggy.com/) m'accompagneront ces prochains jours pour pratiquer ces nouvelles propriétés :
 
 1. **Propriétés du conteneur**
 	2. Flex-direction
@@ -52,7 +52,7 @@ Les ressources que je conserve à portée de main :
 
 ### Hugo 0.26
 
-Mise à jour motorisation  [Hugo 0.26.](https://gohugo.io/news/0.26-relnotes/). Modifié `config.toml` pour activer les "guillemets en français" 
+Mise à jour motorisation [Hugo 0.26.](https://gohugo.io/news/0.26-relnotes/). Modifié `config.toml` pour activer les "guillemets en français" 
 
 ```toml
 angledQuotes = true
