@@ -6,7 +6,7 @@ tags: ["exemple", "bigimg"]
 bigimg: [{src: "/img/triangle.jpg", desc: "Triangle"}, {src: "/img/sphere.jpg", desc: "Sphère"}, {src: "/img/hexagon.jpg", desc: "Hexagon"}]
 ---
 
-Les bannières d'images en haut de la page font référence à `bigimg` dans ce thème. Elles sont facultatives, et une image ou plus peuvent être spécifiées. Si plus d'une image est spécifée, les images tournent toutes les 10 secondes. Dans le front matter, les bigimgs sont spécifiées en utilisant une array de hashes.
+Les bannières d'images en haut de la page font référence à `bigimg` dans ce thème. Elles sont facultatives, et une image ou plus peuvent être spécifiées. Si plus d'une image est spécifée, [ce qui n'est pas recommandé](https://conversionxl.com/dont-use-automatic-image-sliders-or-carousels/), les images tournent toutes les 10 secondes. Dans le front matter, les bigimgs sont spécifiées en utilisant une array de hashes.
 
 <!--more-->
 
