@@ -8,7 +8,7 @@ tags: [100daysofcode, flexbox, media queries]
 bigimg: [{src: "/img/flex/flexbox-design-patterns.png", desc: "Ma première flexbox"}]
 ---
 
-16ème jour. Roméo, le petit châton est bien dans la boîte 007... travaux à poursuivre !  
+16ème jour. Roméo, le petit châton est bien dans la boîte 007... Travaux à poursuivre ! 
 
 Absorbé par le cours HTML/CSS de Todd McLeod sur les quatre [sections couvrant la pratique du design flexbox](https://github.com/GoesToEleven/html-css-bootcamp). Enthousiaste pour imaginer de futurs layouts pour les galeries photos. <!--more-->
 

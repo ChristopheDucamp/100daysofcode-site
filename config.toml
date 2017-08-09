@@ -108,6 +108,15 @@ disqusShortname = "xtof"
     url = "2017/07/27/exemple-de-grande-image/"
     weight = 1
 
+[[menu.main]]
+   parent = "notes"
+    name = "Layout : les essentiels"
+    url = "note/layout-essentials-reference/"
+    weight = 1
+    
+    
+    
+
 #[[menu.main]]
 #    parent = "notes"
 #    name = "Échantillon Math"
