@@ -1,5 +1,5 @@
 ---
-title: "r1d18 : Révision layout"
+title: "r1d17 : Révision layout"
 subtitle:
 date: 2017-08-09T08:05:23+02:00
 lastmod: 2017-08-09T20:19:23+02:00
