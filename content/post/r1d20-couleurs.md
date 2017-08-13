@@ -1,15 +1,15 @@
 ---
 title: "r1d20 en couleurs"
 slug: "r1d20-couleurs"
-subtitle: "en attendant de repeindre le thème"
+subtitle: "un thème assorti aux volets de la maison ?"
 date: "2017-08-12T20:29:32+02:00"
-lastmod: 2017-08-13T10:05:30+02:00 
+lastmod: 2017-08-13T13:18:30+02:00 
 draft: false
 tags: [100daysofcode, colors, graphisme]
 bigimg: [{src: "/img/arc-en-ciel-autriche.jpg", desc: "arc en ciel - Autriche"}, {src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Optical-dispersion.png/220px-Optical-dispersion.png", desc: "Pink Floyd - Prisme"}]
 ---
 
-20ème journée consacrée à la [section Graphisme](https://github.com/GoesToEleven/html-css-bootcamp) sur les bases du bootcamp html/css de Todd McLeod. Une grosse section qui couvre les couleurs, les images et l'extraction d'icônes en SVGs. <!--more-->
+20ème journée consacrée à la [section Graphisme](https://github.com/GoesToEleven/html-css-bootcamp) sur les bases de l'excellent bootcamp html/css de Todd McLeod. Une grosse section qui couvre les couleurs, les images et l'extraction d'icônes en SVGs. <!--more-->
 
 ## Démarrage par la Couleur
 
