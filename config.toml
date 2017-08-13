@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://100daysofcode.com/"
 title = "100daysofcode"
 
 
@@ -9,7 +9,7 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 
 [permalinks]
-  post = "/:year/:month/:day/:title/"
+  post = "/:year/:month/:day/:slug/"
 
 pygmentsUseClasses = true
 pygmentCodeFences = true
