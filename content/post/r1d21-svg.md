@@ -62,7 +62,7 @@ Le *SVG* (*[graphique vectoriel adaptable](https://fr.wikipedia.org/wiki/Scalabl
 		  - **Pas ça** :
 			  - `<text stroke-width="2" style="font-size:20;" ...>`
 		  - **Mais ça :**
-			  - <text stroke-width="2px" style="font-size:20px;" ...>
+			  - `<text stroke-width="2px" style="font-size:20px;" ...>`
 			  - Selon SVG 1.1 Property Index, **seules 8 propriétés SVG 1.1 acceptent une valeur de longueur** :
 				  - stroke-width
 				  - stroke-dashoffset
