@@ -166,6 +166,8 @@ code source :
 
 **Note** : [Iconic](https://useiconic.com/icons/) et [https://feather.netlify.com/](https://feather.netlify.com/) sont des alternatives à Font-Awesome avec une belle gamme d'icônes à télécharger en SVG.
 
-## Pour aller plus loin sur les icônes
+## Pour aller plus loin 
 
 Si vous comptez utiliser les icônes SVG en production (avec le support IE9), lisez [cet article](https://fvsch.com/code/svg-icons/how-to/#section-preparing) ou sa traduction : [Comment travailler avec des icônes en SVG](https://la-cascade.io/comment-travailler-avec-des-icones-en-svg/).
+
+Pour finir, je prévois d'étudier "[Styling And Animating SVGs With CSS](https://www.smashingmagazine.com/2014/11/styling-and-animating-svgs-with-css/)", une transcription adaptée d'une conférence de Sara Soueidan pour travailler les SVGs avec CSS.
