@@ -23,6 +23,9 @@ bigimg: [{src: "/img/path.jpg", desc: "Sur la Route"}]
 Le *SVG* (*[graphique vectoriel adaptable](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics#cite_ref-1)*) est un format de données conçu pour décrire des ensembles de graphiques vectoriels. Basé sur XML, ce format utilise des polygones pour représenter les images dans les graphiques informatiques. Les graphiques vectoriels sont basés sur des vecteurs, qui conduisent à des emplacements appelés points de contrôle ou nœuds. Chacun de ces points a une position définie sur les axes x et y du plan de travail et détermine la direction du chemin. En outre, chaque chemin peut recevoir différents attributs, y compris des valeurs telles que *la couleur, la forme, la courbe, l'épaisseur et le remplissage des traits*.
 
 ## À savoir sur SVG 
+
+Source [outline de Todd McLeod](https://github.com/GoesToEleven/html-css-bootcamp/blob/master/044_svg/06_about-svg/index.html)
+
 - SVG c'est du XML
 	- SVG est du  XML décrivant une image
 	- le XML est sensible à la casse
