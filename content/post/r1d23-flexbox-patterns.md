@@ -1,5 +1,5 @@
 ---
-title: "R1d23 Flexbox Patterns"
+title: "r1d23 Flexbox Patterns"
 subtitle: "Un en-tête de site"
 slug: ""
 date: "2017-08-15T20:17:43+02:00"
