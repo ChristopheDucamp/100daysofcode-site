@@ -9,7 +9,7 @@ tags: [100daysofcode, flexbox, svg, color]
 bigimg: [{src: "/img/flexbox-site-header.png", desc: "Flexbox-Patterns : En-tête de site"}]
 ---
 
-Devoirs de vacances aujourd'hui avec quelques exercices extraits de [http://www.flexboxpatterns.com/](http://www.flexboxpatterns.com/). Ma production *100daysOfCode* du jour s'achève ce soir sur le [troisième exercice des flexbox patterns](http://www.flexboxpatterns.com/site-header) consistant à constuire un **en-tête de site**. 
+Devoirs de vacances aujourd'hui avec quelques exercices extraits de [http://www.flexboxpatterns.com/](http://www.flexboxpatterns.com/). Ma production *100daysOfCode* du jour s'achève ce soir sur le [troisième exercice des flexbox patterns](http://www.flexboxpatterns.com/site-header) consistant à construire un **en-tête de site**. 
 
 Vous trouverez ci-dessous mon échantillon de code, avec en bonus : 
 
