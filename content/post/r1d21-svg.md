@@ -170,4 +170,6 @@ code source :
 
 Si vous comptez utiliser les icônes SVG en production (avec le support IE9), lisez [cet article](https://fvsch.com/code/svg-icons/how-to/#section-preparing) ou sa traduction : [Comment travailler avec des icônes en SVG](https://la-cascade.io/comment-travailler-avec-des-icones-en-svg/).
 
-Pour finir, je prévois d'étudier "[Styling And Animating SVGs With CSS](https://www.smashingmagazine.com/2014/11/styling-and-animating-svgs-with-css/)", une transcription adaptée d'une conférence de Sara Soueidan pour travailler les SVGs avec CSS.
+Pour conclure, je prévois d'étudier l'article "[Styling And Animating SVGs With CSS](https://www.smashingmagazine.com/2014/11/styling-and-animating-svgs-with-css/)", une transcription adaptée d'une conférence de Sara Soueidan pour travailler les SVGs avec CSS.
+
+<iframe src="//slides.com/sarasoueidan/styling-animating-svgs-with-css--2/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
