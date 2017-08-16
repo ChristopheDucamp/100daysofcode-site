@@ -9,12 +9,12 @@ tags: [100daysofcode, flexbox, svg, color]
 bigimg: [{src: "/img/flexbox-site-header.png", desc: "Flexbox-Patterns : En-tête de site"}]
 ---
 
-Devoirs de vacances aujourd'hui avec quelques exercices extraits de [http://www.flexboxpatterns.com/](http://www.flexboxpatterns.com/). Ma production *100daysOfCode* du jour s'achève ce soir sur le [troisième exercice des flexbox patterns](http://www.flexboxpatterns.com/site-header) consistant à construire un **en-tête de site**. 
+Devoirs de vacances aujourd'hui avec quelques exercices extraits de [http://www.flexboxpatterns.com/](http://www.flexboxpatterns.com/). Ma production *100daysOfCode* du jour s'achèvera sur le [troisième exercice des flexbox patterns](http://www.flexboxpatterns.com/site-header) consistant à construire un **en-tête de site**. 
 
 Vous trouverez ci-dessous mon échantillon de code, avec en bonus : 
 
-1. ma première "extraction SVG" et qui devrait théoriquement s'afficher dans IE9 
-2. une couleur d'arrière-plan du menu extraite à la pipette sur le tout nouveau [Pantone  Prince](https://www.theguardian.com/music/2017/aug/14/prince-purple-pantone-color-institute-love-symbol-2) ! 
+1. Ma première "extraction SVG". Qui devrait théoriquement s'afficher dans IE9. 
+2. Une couleur d'arrière-plan du menu extraite à la pipette sur le nouveau [Pantone  Prince](https://www.theguardian.com/music/2017/aug/14/prince-purple-pantone-color-institute-love-symbol-2) ! 
 
 ## CSS 
 
