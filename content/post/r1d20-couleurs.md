@@ -80,7 +80,7 @@ Bien que bon nombre d'entre nous aient la chance de travailler sur les meilleure
 
 Prenez du recul, sortez un portable Windows et un moniteur de faible qualité ; vous pourriez être surpris par ce que vous voyez. Un bon moyen d'identifier les machines et moniteurs à tester est d'extraire les données de Google Analytics ou de vos outils de statistiques.
 
-Si vous avez déà créé votre palette, si vous avez déjà été confronté à traduire un nuancier d'échantillons de peintures en RVB,... et/ou si vous avez d'autres outils/conseils à recommander, je serais très heureux d'avoir vos réactions.
+Si vous avez déjà créé votre palette, si vous avez déjà été confronté à traduire un nuancier d'échantillons de peintures en RVB,... et/ou si vous avez d'autres outils/conseils à recommander, je serais très heureux d'avoir vos réactions.
 
 
 
