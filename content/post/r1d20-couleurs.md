@@ -68,14 +68,18 @@ S'assurer que la palette de couleurs soit conforme aux standards de contraste. L
 
 #### Testez votre palette dans plusieurs environnemenets
 
-L'une des étapes les plus importantes : identifier les environnements dans lesquelles les personnes utilisent votre app. Suivre le processus de design environnemental vous aidera à comprendre les différents environnements nécessaires. Placez votre terminal dehors à la lumière du jour, dans une salle sombre, ... et testez ! 
+L'une des étapes les plus importantes est d'identifier les environnements dans lesquelles les personnes utilisent votre app. Suivre le [processus de design d'environnement](https://medium.com/ruxers/environment-design-stop-limiting-design-to-digital-space-c10a10589b92) vous aidera à comprendre les différents environnements nécessaires. Placez votre terminal dehors à la lumière du jour, dans une salle sombre, ... et testez ! 
 
 **Si quelque chose ne va pas, itérez !**
 
 
 #### Regardez vos couleurs sur différents écrans 
 
-Bien que bon nombre d'entre nous aient la chance de travailler sur les meilleures technologies, la plupart du monde ne l'est pas. Il est facile de s'habituer aux retina et/ou aux écrans 5k. Prenons du recul, sortez un portable Windows et un moniteur de faible qualité ; vous pourriez être surpris par ce que vous voyez. Un bon moyen d'identifier les machines et moniteurs à tester est d'extraire les données de Google Analytics ou de vos outils de statistiques.
+Bien que bon nombre d'entre nous aient la chance de travailler sur les meilleures technologies, la plupart du monde ne l'est pas. Il est facile de s'habituer aux retina et/ou aux écrans 5k. 
+
+Prenez du recul, sortez un portable Windows et un moniteur de faible qualité ; vous pourriez être surpris par ce que vous voyez. Un bon moyen d'identifier les machines et moniteurs à tester est d'extraire les données de Google Analytics ou de vos outils de statistiques.
+
+Si vous avez déà créé votre palette et/ou avez d'autres outils/conseils à recommander, je serais très heureux d'avoir vos réactions. 
 
 
 
