@@ -33,8 +33,8 @@ disqusShortname = "xtof"
 #PARAMS pied de page en cours
 
   
-  ### Editez le repo de contenu (regle pour entrer automatiquement le mode "edit" ;  bien pour des liens "ameliorer cette page")
-  ghdocsrepo = "https://github.com/ChristopheDucamp/100daysofcode-site/tree/master"
+# Editez le repo de contenu (regle pour entrer automatiquement le mode "edit" ;  bien pour des liens "ameliorer cette page")
+ghdocsrepo = "https://github.com/ChristopheDucamp/100daysofcode-site/tree/master"
 
 
 #[[Params.bigimg]]
@@ -46,9 +46,6 @@ disqusShortname = "xtof"
 #[[Params.bigimg]]
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
-
-
-
 
 
 [Author]
@@ -114,9 +111,6 @@ disqusShortname = "xtof"
     name = "Layout : les essentiels"
     url = "note/layout-essentials-reference/"
     weight = 1
-    
-    
-    
 
 #[[menu.main]]
 #    parent = "notes"
@@ -138,3 +132,6 @@ disqusShortname = "xtof"
 # guillemets français
 
 
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
