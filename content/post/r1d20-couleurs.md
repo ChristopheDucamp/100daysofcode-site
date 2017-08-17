@@ -36,7 +36,7 @@ Bien que les valeurs de couleur CSS soient définies avec précision, elles peuv
 - [convertisseur décimal en hexadécimal (base 16)](http://www.binaryhexconverter.com/decimal-to-hex-converter)
 
 
-### Construire des palettes de couleurs
+### Chantier à venir : construire une palette de couleurs
 
 Recherche de couleurs complémentaires pour colorer un thème assorti aux volets de la maison. En me fondant sur une nomenclature simple de type RVB et en m'inspirant d'assortiments comme ce "sable, pierre, plage, océan" trouvé dans l'explorateur Adobe Color : 
 
@@ -70,7 +70,7 @@ S'assurer que la palette de couleurs soit conforme aux standards de contraste. L
 
 L'une des étapes les plus importantes : identifier les environnements dans lesquelles les personnes utilisent votre app. Suivre le processus de design environnemental vous aidera à comprendre les différents environnements nécessaires. Placez votre terminal dehors à la lumière du jour, dans une salle sombre, ... et testez ! 
 
-**Si quelque chose ne va pas, itérez ! **
+**Si quelque chose ne va pas, itérez !**
 
 
 #### Regardez vos couleurs sur différents écrans 
