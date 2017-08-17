@@ -1,12 +1,12 @@
 ---
 title: "r1d20 : les couleurs"
 slug: "r1d20-couleurs"
-subtitle: "un thème assorti aux volets de la maison"
+subtitle: "Un thème assorti aux volets de la maison"
 date: "2017-08-12T20:29:32+02:00"
 lastmod: 2017-08-16T10:24:34+02:00 
 draft: false
 tags: [100daysofcode, colors, graphisme]
-bigimg: [{src: "/img/arc-en-ciel-autriche.jpg", desc: "arc en ciel - Autriche"}, {src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Optical-dispersion.png/220px-Optical-dispersion.png", desc: "Pink Floyd - Prisme"}]
+bigimg: [{src: "/img/arc-en-ciel-autriche.jpg", desc: "arc en ciel - Autriche"}, {src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Optical-dispersion.png/220px-Optical-dispersion.png", desc: "Pink Floyd - Prisme"}, {src: "https://monosnap.com/file/41YkcwtgiLQEdKmsjqVuGAf328a5PN.png", desc: "Thai Sapphire (116)"}]
 ---
 
 20ème journée consacrée à la [section Graphisme](https://github.com/GoesToEleven/html-css-bootcamp) sur les bases de l'excellent bootcamp html/css de Todd McLeod. Une grosse section qui couvre les couleurs, les images et l'extraction d'icônes en SVGs. <!--more-->
@@ -36,12 +36,13 @@ Bien que les valeurs de couleur CSS soient définies avec précision, elles peuv
 - [convertisseur décimal en hexadécimal (base 16)](http://www.binaryhexconverter.com/decimal-to-hex-converter)
 
 
-### Chantier à venir : construire une palette de couleurs
+### Chantier : construire une palette de couleurs
 
-Recherche de couleurs complémentaires pour colorer un thème assorti aux volets de la maison. En me fondant sur une nomenclature simple de type RVB et en m'inspirant d'assortiments comme ce "sable, pierre, plage, océan" trouvé dans l'explorateur Adobe Color : 
+Recherche de couleurs complémentaires pour imaginer un thème assorti aux volets de la maison. En me fondant sur une nomenclature simple de type RVB, j'aimerais construire une palette articulée autour d'un "Thai Sapphire 116" trouvé dans le nuancier de "Colours of England".  
 
-![AdobeColors](/img/adobe-colors-andy-stone-beach-ocean-diver.png) 
+> un bleu chaud et saturé qui ajoute de la splendeur et une touche dramatique à la palette -- ([Laurine Déco](http://www.laurinedeco.fr/colours-of-england/2467-little-greene-thai-sapphire-116.html))
 
+![Thai Sapphire 116](https://monosnap.com/file/41YkcwtgiLQEdKmsjqVuGAf328a5PN.png)
 
 ### Expérience-utilisateur
 
@@ -79,10 +80,7 @@ Bien que bon nombre d'entre nous aient la chance de travailler sur les meilleure
 
 Prenez du recul, sortez un portable Windows et un moniteur de faible qualité ; vous pourriez être surpris par ce que vous voyez. Un bon moyen d'identifier les machines et moniteurs à tester est d'extraire les données de Google Analytics ou de vos outils de statistiques.
 
-Si vous avez déà créé votre palette et/ou avez d'autres outils/conseils à recommander, je serais très heureux d'avoir vos réactions. 
-
-
-
+Si vous avez déà créé votre palette, si vous avez déjà été confronté à traduire un nuancier d'échantillons de peintures en RVB,... et/ou si vous avez d'autres outils/conseils à recommander, je serais très heureux d'avoir vos réactions.
 
 
 
