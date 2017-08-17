@@ -822,3 +822,26 @@ img.webmention-error {display: none;}
   top: 0;
   width: 100%;
 }
+
+
+/* bricolage en cours bouton edit */
+
+.w100 {
+  width: 100%;
+}
+
+.bg-light-gray {
+  background-color: #eee;
+}
+
+.dark-gray {
+  color: #333;
+}
+
+.f4 {
+  font-size: 1.25rem;
+}
+
+.mb2 {
+  margin-bottom: .5rem;
+}

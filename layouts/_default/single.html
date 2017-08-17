@@ -6,14 +6,18 @@
         {{ .Content }}
         
       
-        <!-- partial webmention a inserer --> 
+        <!-- partial webmention a raffiner -->
         {{ partial "webmention.html" . }}
        
 
-         <!-- bloc edit - date de mise a jour au format fr a raffiner. ex : <nomdujour> 1er -->
-        {{ partial "page-edit.html" . }}
-        <!-- /bloc edit --> 
-        
+         <!-- partiels edit this page. -->
+           <div class="w-100 bg-light-gray">
+               <div class="mw7 pa4 center nested-lh-copy lh-copy">
+                   {{ partial "page-edit.html" . }}
+
+               </div>
+           </div>
+        <!-- /partiels edit this page -->
       </article>
 
 

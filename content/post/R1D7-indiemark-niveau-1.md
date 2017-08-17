@@ -111,10 +111,6 @@ Ajouter quelques catégories !
 
 `<a class="p-category" href="…">…</a>`
 
-  
-
-
-
 #### Layout `single.html`
 
 - Ajouté une url de permalien (variable `.Permalink) dans le titre du contenu ```<a class="u-url" href="…">…</a>``` 
@@ -131,12 +127,12 @@ le code de `single.html` à cette heure :
         
         <!-- bloc ameliorer la page -->
         {{ partial "page-edit.html" . }}
-        <!-- /bloc amelioer la page --> 
+        <!-- /bloc ameliorer la page --> 
         
       </article>
 ```
 
-avec son partiel à raffiner `page-edit.html` dans lequel j'ai ajouté une propriété `p-name` et `u-url` sur le titre du post.
+avec son partiel `page-edit.html` dans lequel j'ai ajouté une propriété `p-name` et `u-url` sur le titre du post.  
 
 ```
 <div class="btn footer btn-primary btn-lg"> 
