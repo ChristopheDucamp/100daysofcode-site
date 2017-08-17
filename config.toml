@@ -11,6 +11,7 @@ metaDataFormat = "yaml"
 [permalinks]
   post = "/:year/:month/:day/:slug/"
 
+enableRobotsTXT = true
 pygmentsUseClasses = true
 pygmentCodeFences = true
 #pygmentsStyle = "friendly"
