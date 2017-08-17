@@ -8,8 +8,6 @@ tags: [100daysofcode, https, dates]
 
 <!--more-->
 
-
-
 - déploiement netlify : ajout certificat **https** 
 - [dates en français](/2017/07/27/r1d4--mise-en-forme-des-dates-dans-gohugo/). [FuckingGoDateFormat](http://fuckinggodateformat.com/)
 	- ajouté une date de modification en pied de page

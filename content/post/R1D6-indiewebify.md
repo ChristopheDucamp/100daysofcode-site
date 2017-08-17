@@ -1,27 +1,31 @@
 ---
 title: "R1D6 : Premiers pas pour indiewebifier Hugo"
 date: 2017-07-29
+lastmod: 2017-08-18
 tags: [indieweb]
 bigimg: [{src: "/img/bureau-autriche-campagne.jpg", desc: "2ème bureau"}]
 ---
 
-6ème jour. La maison est désormais réveillée. Difficile d'avancer. Récap sur les travaux matinaux. 2 heures pour raffiner un bouton "edit", aménager un dossier photos et amorcer les étapes d'indiewebification...<!--more-->
+6ème jour. 2 heures pour raffiner un bouton "edit", aménager un dossier photos et amorcer les étapes d'indiewebification...<!--more-->
 
 ## Création et Mise en Forme du Bouton "Améliorer cette page"
 
 - Création d'un partiel '/partials/page-edit.html` avec un bloc de [composants CSS bootstrap](https://v4-alpha.getbootstrap.com/components/buttons/)
 
+```html
+<h6 class="f4 dark-gray mb2">
+    <a class="post-title p-name u-url" href="{{ .Permalink }}" class="hide-child link primary-color">
+        <span class="nl3 child">{{ partial "svg/link-permalink.svg" (dict "size" "14px") }}</span>
+        {{ .Title }}
+    </a>
+    a été mise à jour le  <time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Lastmod.Format "02-01-2006"}}</time> {{ with .GitInfo }}: <a class="hide-child link primary-color" href="{{$.Site.Params.ghrepo}}/commit/{{ .Hash }}">{{ .Subject }} ({{ .AbbreviatedHash }})</a>{{end }} par <a rel="author" class="p-author h-card" href="{{ .Site.Author.site }}">{{ .Site.Author.name }}</a>
+</h6>
+
+<a class="btn btn-primary btn-success white hover-bg-green link" role="button"
+   href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}">
+    Améliorez cette page</a>
 ```
-<div class="btn btn-primary btn-lg btn-block">
-Page mise à jour le 
-<time class="dt-updated" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-{{ .Lastmod.Day }} {{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Lastmod.Year }}
-</time> 
-<a class="btn btn-primary btn-success white hover-bg-green link" role="button" 
-href="{{.Site.Params.ghrepo}}edit/master/content/{{.File.Path}}">
-Améliorez cette page</a>
-</div>
-```
+
 ## Iconographie 
 
 - Ajouté un répertoire local `static/img` afin d'ajouter des images personnelles et reprendre un vieux défi de poster une photo par jour qui pourrait se placer dans la bannière.
@@ -36,7 +40,7 @@ Améliorez cette page</a>
 
 ## IndieMark Niveau 1
 
-Le web indépenant classique + IndieAuth
+Le web indépendant classique + IndieAuth
 
 > IndieMark Level 1 has the general theme of owning your own domain, for sign-in, and publishing posts
 
@@ -54,7 +58,6 @@ Le web indépenant classique + IndieAuth
 Trop de h-cards selon le validateur indiewebify :  
 
 ![indiewebify.me](https://monosnap.com/file/caUAs9rggeCEReojYWzG9WLh8j4EnH.png)
-
 
 - Modifié le fichier de configuration pour rajouter des variables de site `Author`.
 - Installé dans un partiel `hcard.html` une h-card représentative inspirée du [modèle de Kevin Marks](https://github.com/ChristopherA/LifeWithAlacrityBlog/blob/master/blog/themes/indie-tufte/layouts/partials/hcard.html)
