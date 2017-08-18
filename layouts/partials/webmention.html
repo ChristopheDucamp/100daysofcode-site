@@ -1,9 +1,7 @@
-<!-- Webmention -->
-<p>Vous avez écrit une réponse à ce post ? Faites-moi connaître l'URL : </p>
 <form action="https://webmention.herokuapp.com/api/webmention" method="post">
-    <input name="source" type="url" placeholder="http://exemple.com/mon-post-cool">
-    <input name="target" value="http://christopheducamp.com/2017/07/25/100-days-of-code/" type="hidden">
-    <input value="Envoyer la Webmention" type="submit">
+<input name="source" type="url" placeholder="http://exemple.com/mon-post-cool">
+<input name="target" value="http://christopheducamp.com/2017/07/25/100-days-of-code/" type="hidden">
+<input value="Envoyer la Webmention" type="submit">
 </form>
 
 <section class="webmention">
@@ -20,4 +18,29 @@ s.parentNode.insertBefore(sn, s);
 </script>
 
 </section>
+
+
+
+<!-- Webmention -->
+<!--<p>Vous avez écrit une réponse à ce post ? Faites-moi connaître l'URL : </p>-->
+<!--<form action="https://webmention.herokuapp.com/api/webmention" method="post">-->
+    <!--<input name="source" type="url" placeholder="http://exemple.com/mon-post-cool">-->
+    <!--<input name="target" value="http://christopheducamp.com/2017/07/25/100-days-of-code/" type="hidden">-->
+    <!--<input value="Envoyer la Webmention" type="submit">-->
+<!--</form>-->
+
+<!--<section class="webmention">-->
+
+<!--<script id="webmention-hosted">-->
+<!--(function () {-->
+<!--var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;-->
+<!--url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;-->
+<!--url = url && url[0] ? url[0].href : false;-->
+<!--sn.type = "text/javascript"; sn.async = true;-->
+<!--sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);-->
+<!--s.parentNode.insertBefore(sn, s);-->
+<!--}());-->
+<!--</script>-->
+
+<!--</section>-->
 <!-- / Webmention -->
