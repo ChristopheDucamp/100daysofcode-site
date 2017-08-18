@@ -12,6 +12,7 @@ metaDataFormat = "yaml"
   post = "/:year/:month/:day/:slug/"
 
 enableRobotsTXT = true
+enableGitInfo = true
 pygmentsUseClasses = true
 pygmentCodeFences = true
 #pygmentsStyle = "friendly"
