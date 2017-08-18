@@ -715,113 +715,6 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 }
 
 
-/* ajout webmention css herosku  */
-/*
-*{margin:0;padding:0}
-#html{background:#fff}
-#body{font-size:18px;font-family:"Helvetica neue", Helvetica, Arial, "MS Trebuchet", sans-serif;margin:10px auto;max-width:800px;color:#212121;font-weight:300}
-a{color:rgb(22,160,133)}
-#img{border:0}
-#h1,h2,h3{font-family:'Faster One',sans-serif;font-weight:400}
-h1{font-size:2.8em;padding:40px 20px 20px;text-align:center;}
-h1 a{color:#212121;text-decoration:none}
-h1 em{color:rgb(22,160,133);font-style:normal}
-h2,h3{font-size:1.4em}
-h4{font-size:1em;}
-h2,h3,h4,p,li,#main .info{margin-bottom:20px}
-ul{list-style:none}
-.subtitle{font-size:.8em;padding:0 100px 40px;text-align:center;margin-bottom:15px}
-.warning{color:#aa0;font-weight:700;}
-.error{color:#A03B13}
-.accounts-available{font-size:14px;}
-*/
-main > div{padding: 15px 20px;margin-bottom:8px}
-address{font-style:normal;padding:0 10px 10px;text-align:center;font-size:.7em}
-textarea{width:80%;border-radius:2px;border:1px solid #ccc;background:#eee;padding:5px;resize: none;height:2.1em;margin-top:20px;}
-textarea.webmention-embed{height:14em}
-textarea.webmention-embed-example{height:3em}
-textarea:first-of-type{margin-top:0}
-.page-mentions .h-entry:first-of-type{margin-top:30px}
-.page-mentions .h-entry .u-comment:first-of-type{margin-top:20px}
-
-.webmention-mention, .page-mentions .h-entry, .page-mentions .u-comment {
-  padding-left: 9%;
-  position: relative;
-  margin-bottom: 20px;
-}
-.webmention-name, .webmention-summary,
-.page-mentions .h-entry .p-name, .page-mentions .h-entry .p-summary,
-.page-mentions .u-comment .p-name, .page-mentions .u-comment .p-summary {
-  margin: 10px 0;
-}
-.webmention-author, .page-mentions .h-card {
-  font-size: .9em;
-}
-.webmention-footer, .page-mentions .h-entry footer, .page-mentions .u-comment footer {
-  display: block;
-  font-size: .7em;
-  color: inherit;
-}
-.webmention-author img, .page-mentions .h-card img {
-  position: absolute;
-  top: -5px;
-  left: 0;
-  width: 7%;
-  border-radius: 240px;
-}
-.page-mentions .h-entry .u-comment {
-  margin-left: -9%;
-  padding-left: 13.5%;
-}
-.page-mentions .u-comment .h-card img {
-  left: 3.5%;
-}
-img.webmention-error {display: none;}
-.webmention-facepile {
-  margin-bottom: 25px;
-}
-.webmention-facepile > li {
-  display: inline-block;
-  position: relative;
-  margin: 0 5px 5px 0;
-}
-.webmention-interaction-presentation:after {
-  display: block;
-  position: absolute;
-  bottom: -4px;
-  right: -4px;
-  padding: 4px;
-  width: 1em;
-  height: 1em;
-
-  font-size: 12px;
-  line-height: 1;
-  text-align: center;
-
-  color: #000;
-  background: #eee;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-}
-.webmention-interaction-like .webmention-interaction-presentation:after {content: "♥"}
-.webmention-interaction-repost .webmention-interaction-presentation:after {content: "♺"}
-.webmention-interaction-presentation > span {
-  display: block;
-  text-indent: -5000em;
-  position: relative;
-  overflow: hidden;
-  width: 2em;
-  height: 2em;
-  border-radius: 240px;
-  background: #eee;
-  border: 1px solid #ccc;
-}
-.webmention-interaction-presentation > span > img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
 
 
 /* formulaire envoi url + webmention */
@@ -861,6 +754,118 @@ input {
 .btn:hover {
     background-color: #008800;
 }
+
+
+/* ajout webmention-hosted css herosku  */
+/*
+*{margin:0;padding:0}
+#html{background:#fff}
+#body{font-size:18px;font-family:"Helvetica neue", Helvetica, Arial, "MS Trebuchet", sans-serif;margin:10px auto;max-width:800px;color:#212121;font-weight:300}
+a{color:rgb(22,160,133)}
+#img{border:0}
+#h1,h2,h3{font-family:'Faster One',sans-serif;font-weight:400}
+h1{font-size:2.8em;padding:40px 20px 20px;text-align:center;}
+h1 a{color:#212121;text-decoration:none}
+h1 em{color:rgb(22,160,133);font-style:normal}
+h2,h3{font-size:1.4em}
+h4{font-size:1em;}
+h2,h3,h4,p,li,#main .info{margin-bottom:20px}
+ul{list-style:none}
+.subtitle{font-size:.8em;padding:0 100px 40px;text-align:center;margin-bottom:15px}
+.warning{color:#aa0;font-weight:700;}
+.error{color:#A03B13}
+.accounts-available{font-size:14px;}
+*/
+
+
+main > div{padding: 15px 20px;margin-bottom:8px}
+address{font-style:normal;padding:0 10px 10px;text-align:center;font-size:.7em}
+textarea{width:80%;border-radius:2px;border:1px solid #ccc;background:#eee;padding:5px;resize: none;height:2.1em;margin-top:20px;}
+textarea.webmention-embed{height:14em}
+textarea.webmention-embed-example{height:3em}
+textarea:first-of-type{margin-top:0}
+.page-mentions .h-entry:first-of-type{margin-top:30px}
+.page-mentions .h-entry .u-comment:first-of-type{margin-top:20px}
+
+.webmention-mention, .page-mentions .h-entry, .page-mentions .u-comment {
+    padding-left: 9%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.webmention-name, .webmention-summary,
+.page-mentions .h-entry .p-name, .page-mentions .h-entry .p-summary,
+.page-mentions .u-comment .p-name, .page-mentions .u-comment .p-summary {
+    margin: 10px 0;
+}
+.webmention-author, .page-mentions .h-card {
+    font-size: .9em;
+}
+.webmention-footer, .page-mentions .h-entry footer, .page-mentions .u-comment footer {
+    display: block;
+    font-size: .7em;
+    color: inherit;
+}
+.webmention-author img, .page-mentions .h-card img {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 7%;
+    border-radius: 240px;
+}
+.page-mentions .h-entry .u-comment {
+    margin-left: -9%;
+    padding-left: 13.5%;
+}
+.page-mentions .u-comment .h-card img {
+    left: 3.5%;
+}
+img.webmention-error {display: none;}
+.webmention-facepile {
+    margin-bottom: 25px;
+}
+.webmention-facepile > li {
+    display: inline-block;
+    position: relative;
+    margin: 0 5px 5px 0;
+}
+.webmention-interaction-presentation:after {
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    padding: 4px;
+    width: 1em;
+    height: 1em;
+
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+
+    color: #000;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+.webmention-interaction-like .webmention-interaction-presentation:after {content: "♥"}
+.webmention-interaction-repost .webmention-interaction-presentation:after {content: "♺"}
+.webmention-interaction-presentation > span {
+    display: block;
+    text-indent: -5000em;
+    position: relative;
+    overflow: hidden;
+    width: 2em;
+    height: 2em;
+    border-radius: 240px;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+.webmention-interaction-presentation > span > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
 
 
 
