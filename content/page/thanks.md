@@ -9,6 +9,7 @@ tags: [100daysofcode, gohugo, git]
 bigimg: [{src: "/img/path.jpg", desc: "Sur la Route"}]
 comments: false
 ---
+<!--more-->
 ## Outils sur mon ordinateur
 
 - Le moteur de site web statique [Hugo](https://gohugo.io) qui génère le site web
