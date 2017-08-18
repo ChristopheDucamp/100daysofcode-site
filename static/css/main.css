@@ -824,24 +824,37 @@ img.webmention-error {display: none;}
 }
 
 
-/* bricolage en cours bouton edit */
+/* formulaire envoi url webmention */
 
-.w100 {
-  width: 100%;
-}
+.envoi-webmention {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+  }
 
-.bg-light-gray {
-  background-color: #eee;
+input {
+    margin: 0 1rem;
+    width: 18vw;
 }
 
 .dark-gray {
   color: #333;
 }
 
-.f4 {
-  font-size: 1.25rem;
-}
+/* metadata et page-edit */
 
-.mb2 {
-  margin-bottom: .5rem;
+.edit {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 1rem;
+    padding: .5rem;
+    background-color: #f5f5f5;
+
 }

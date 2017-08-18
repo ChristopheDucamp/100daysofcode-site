@@ -4,21 +4,20 @@
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
        <article role="main" class="blog-post e-content">
         {{ .Content }}
-        
-      
-        <!-- partial webmention a raffiner -->
-        {{ partial "webmention.html" . }}
-       
+       </article>
 
-         <!-- partiels edit this page. -->
-           <div class="w-100 bg-light-gray">
-               <div class="mw7 pa4 center nested-lh-copy lh-copy">
-                   {{ partial "page-edit.html" . }}
+           <!-- partiel webmention -->
+           {{ partial "webmention.html" . }}
+           <!-- /partiel webmention -->
+           <section class="edit">
+           <!-- partiel meta data-->
+           {{ partial "page-meta-data.html" . }}
+           <!-- /partiel meta data-->
+           <!-- partiel bouton page-edit-->
+           {{ partial "page-edit.html" . }}
+           <!-- /partiel bouton page-edit-->
+           </section>
 
-               </div>
-           </div>
-        <!-- /partiels edit this page -->
-      </article>
 
 
       <ul class="pager blog-pager">
