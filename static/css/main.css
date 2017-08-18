@@ -783,7 +783,7 @@ input {
 .webmention-author img {
     display: block;
     height: 60px;
-    border-radius: 35px;
+    border-radius: 50%;
 }
 
 
