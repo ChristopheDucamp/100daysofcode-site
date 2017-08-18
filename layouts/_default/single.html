@@ -6,18 +6,22 @@
         {{ .Content }}
        </article>
 
+        <div class="mention-edit">
+            <div class="envoi-webmention">
            <!-- partiel webmention -->
            {{ partial "webmention.html" . }}
            <!-- /partiel webmention -->
-           <section class="edit">
+            </div>
+
+            <div class="edit">
            <!-- partiel meta data-->
            {{ partial "page-meta-data.html" . }}
            <!-- /partiel meta data-->
            <!-- partiel bouton page-edit-->
            {{ partial "page-edit.html" . }}
            <!-- /partiel bouton page-edit-->
-           </section>
-
+            </div>
+        </div>
 
 
       <ul class="pager blog-pager">
