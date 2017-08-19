@@ -12,7 +12,7 @@ Les personnes me demandent souvent ce que je fais en ce moment.
 
 À chaque fois, je devais taper une réponse, décrivant où je suis, sur quoi je suis concentré, et ce que je ne suis pas.
 
-Aussi en début d'année j'ai ajouté une page [/now](https://sivers.org/now) à mon site: **[sivers.org/now](https://sivers.org/now)**
+Aussi en début d'année j'ai ajouté à mon site une page [/now](https://sivers.org/now) : **[sivers.org/now](https://sivers.org/now)**
 
 Un lien simple. Facile à mémoriser. Facile à taper.
 
@@ -38,11 +38,12 @@ J'ai re-tweeté son annonce et, en quelques heures, 8 autres personnes ont maint
 J'aime ça ! Je souhaiterais que *tout le monde* en ait une!
 
 **Si vous créez une page /now sur votre site, veuillez ajouter l'URL dans le texte du commentaire ci-dessous.** 
+
 Utilisez l'URL http:// complète, afin que le lien soit cliquable.
 
 ### Mise à jour : toutes les pages /now sont listées sur [nownownow.com](http://nownownow.com/)
 
-(Vous ne comprenez pas ce qui se passe ici, n'est-ce pas? Gregory Brown a [démarré un mouvement](https://sivers.org/ff)!) ☺
+(Vous ne comprenez pas ce qui se passe ici, n'est-ce pas ? Gregory Brown a [démarré un mouvement](https://sivers.org/ff)!) ☺
 
-[![](https://sivers.org/images/nowclock.jpg)](http://nownownow.com/)  
+![](https://sivers.org/images/nowclock.jpg)](http://nownownow.com/)  
 

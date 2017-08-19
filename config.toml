@@ -1,9 +1,7 @@
 baseURL = "https://100daysofcode.christopheducamp.com/"
 title = "100daysofcode"
 
-
 DefaultContentLanguage = "fr"
-#DefaultContentLanguage = "en"
 
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
@@ -26,10 +24,15 @@ disqusShortname = "xtof"
   ghrepo = "https://github.com/ChristopheDucamp/100daysofcode-site/"
   favicon = "img/favicon.ico"
   dateFormat = "Monday 2 January 2006"
-  commit = false
+  commit = "https://github.com/ChristopheDucamp/100daysofcode-site/tree"
   rss = true
   comments = true
-#  gcse = "012345678901234567890:abcdefghijk" # Revevez votre code à partir de google.com/cse. Assurez-vous d'aller sur "Look and Feel" et de modifier le Layout en "Full Width" et le Theme sur "Classic"
+  gcse = "015931601315879755213:r7lofz_kzv0" 
+
+# Retrouvez votre code à partir de google.com/cse. 
+# Assurez-vous d'aller sur "Look and Feel" et de modifier le Layout en "Full Width" 
+# et le Theme sur "Classic"
+
 
 #PARAMS pied de page en cours
 
@@ -50,7 +53,7 @@ ghdocsrepo = "https://github.com/ChristopheDucamp/100daysofcode-site/tree/master
 
 
 [Author]
-  name = "xtof"
+  name = "Christophe Ducamp"
   summary ="coder 1 heure par jour pendant 100 jours. Défi personnel démarré le 24 juillet 2017."
   authorphoto ="/img/avatar-icon.jpg"
   authorurl ="page/a-propos/"
